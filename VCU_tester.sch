@@ -725,10 +725,6 @@ Text Label 4650 5500 0    50   ~ 0
 VCUCANTX1
 Text Label 6150 5500 2    50   ~ 0
 VCUCANRX1
-Wire Wire Line
-	5650 5500 6150 5500
-Wire Wire Line
-	4650 5500 5150 5500
 NoConn ~ 5150 5600
 Wire Wire Line
 	5150 5400 4900 5400
@@ -1084,10 +1080,6 @@ F 3 "~" H 3800 6300 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3050 5100 3600 5100
-Wire Wire Line
-	3600 6800 3000 6800
-Wire Wire Line
-	3600 6900 3000 6900
 Text Label 3000 6800 0    47   ~ 0
 VCUTXD0
 Text Label 3000 6900 0    47   ~ 0
@@ -1097,7 +1089,7 @@ VCUTXD1
 Text Label 6150 5800 2    47   ~ 0
 VCURXD1
 Text Notes 3050 4250 0    47   ~ 0
-TO ROUTE:\n8 GPIOs (only have four - I2C?), UARTMC1, UARTMC2, UART4
+TO ROUTE:\n8 GPIOs (only have four - I2C?), UARTMC1, UARTMC2
 Wire Wire Line
 	3250 2550 3250 2300
 Wire Wire Line
@@ -1114,10 +1106,6 @@ NoConn ~ 1800 3050
 NoConn ~ 1800 2950
 NoConn ~ 1800 2850
 NoConn ~ 1800 2750
-Wire Wire Line
-	3600 7000 3000 7000
-Wire Wire Line
-	3600 7100 3000 7100
 Wire Wire Line
 	3600 7200 3000 7200
 Wire Wire Line
@@ -1144,4 +1132,109 @@ Wire Wire Line
 	3600 6300 3000 6300
 Text Label 3000 6300 0    47   ~ 0
 VCUGPIO_?
+Text Label 8550 3800 2    50   ~ 0
+UART2_RXD
+Text Label 8550 3900 2    50   ~ 0
+UART2_TXD
+Wire Wire Line
+	2850 6800 3600 6800
+Wire Wire Line
+	2850 6900 3600 6900
+Text Label 8550 4000 2    50   ~ 0
+UART4_RXD
+Text Label 8550 4100 2    50   ~ 0
+UART4_TXD
+Wire Wire Line
+	5650 5500 6200 5500
+Wire Wire Line
+	4550 5500 5150 5500
+Text Label 2850 7000 2    50   ~ 0
+UART5_RXD+
+Text Label 2850 7100 2    50   ~ 0
+UART5_TXD+
+Wire Wire Line
+	2850 7100 3600 7100
+Wire Wire Line
+	2850 7000 3600 7000
+Wire Wire Line
+	3600 6200 3000 6200
+Wire Wire Line
+	3600 6100 3000 6100
+Wire Wire Line
+	3600 6000 3000 6000
+Wire Wire Line
+	3600 5900 3000 5900
+Wire Wire Line
+	3600 5500 3000 5500
+Wire Wire Line
+	3600 5400 3000 5400
+Wire Wire Line
+	3600 5600 3000 5600
+Wire Wire Line
+	3600 5700 3000 5700
+Text Label 3000 6200 0    50   ~ 0
+GPIO_4
+Text Label 3000 6100 0    50   ~ 0
+GPIO_5
+Text Label 3000 6000 0    50   ~ 0
+GPIO_6
+Text Label 3000 5900 0    50   ~ 0
+GPIO_7
+Text Label 3000 5700 0    50   ~ 0
+GPIO_8
+Text Label 3000 5600 0    50   ~ 0
+GPIO_9
+Text Label 3000 5500 0    50   ~ 0
+GPIO_10
+Text Label 3000 5400 0    50   ~ 0
+GPIO_11
+NoConn ~ 3000 7300
+NoConn ~ 3000 7200
+NoConn ~ 3000 6600
+NoConn ~ 3000 6500
+NoConn ~ 3000 6300
+NoConn ~ 3600 5300
+NoConn ~ 3600 5200
+NoConn ~ 3600 5000
+NoConn ~ 3600 4900
+NoConn ~ 3600 4800
+NoConn ~ 5150 5700
+NoConn ~ 5650 5700
+NoConn ~ 5650 5600
+NoConn ~ 5650 5900
+NoConn ~ 5650 6100
+NoConn ~ 5650 6200
+NoConn ~ 5650 6300
+NoConn ~ 5650 6600
+NoConn ~ 5650 6700
+NoConn ~ 5650 6800
+NoConn ~ 5650 6900
+NoConn ~ 5650 7000
+NoConn ~ 5150 7000
+NoConn ~ 5150 6900
+NoConn ~ 5150 6800
+NoConn ~ 5150 6400
+NoConn ~ 5150 6500
+NoConn ~ 5150 6600
+NoConn ~ 5150 5900
+NoConn ~ 5150 6000
+NoConn ~ 5150 6100
+NoConn ~ 5150 6200
+Text Label 9400 3800 0    47   ~ 0
+VCUTXD0
+Text Label 9400 3900 0    47   ~ 0
+VCURXD0
+Text Label 9400 4000 0    47   ~ 0
+VCUTXD2
+Text Label 9400 4100 0    47   ~ 0
+VCURXD2
+NoConn ~ 6200 5500
+NoConn ~ 4550 5500
+NoConn ~ 3100 3150
+NoConn ~ 5400 2850
+NoConn ~ 5400 2750
+NoConn ~ 4100 2750
+NoConn ~ 4100 2650
+NoConn ~ 5400 2650
+NoConn ~ 4100 2850
 $EndSCHEMATC
