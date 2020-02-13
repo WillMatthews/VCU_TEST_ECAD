@@ -68,23 +68,23 @@ $EndComp
 $Comp
 L power:GNDD #PWR04
 U 1 1 558979C1
-P 4650 1150
-F 0 "#PWR04" H 4650 900 50  0001 C CNN
-F 1 "GNDD" H 4650 1000 50  0000 C CNN
-F 2 "" H 4650 1150 60  0000 C CNN
-F 3 "" H 4650 1150 60  0000 C CNN
-	1    4650 1150
+P 4250 1150
+F 0 "#PWR04" H 4250 900 50  0001 C CNN
+F 1 "GNDD" H 4250 1000 50  0000 C CNN
+F 2 "" H 4250 1150 60  0000 C CNN
+F 3 "" H 4250 1150 60  0000 C CNN
+	1    4250 1150
 	-1   0    0    1   
 $EndComp
 $Comp
 L power:GNDD #PWR05
 U 1 1 558979E8
-P 5650 1150
-F 0 "#PWR05" H 5650 900 50  0001 C CNN
-F 1 "GNDD" H 5650 1000 50  0000 C CNN
-F 2 "" H 5650 1150 60  0000 C CNN
-F 3 "" H 5650 1150 60  0000 C CNN
-	1    5650 1150
+P 5250 1150
+F 0 "#PWR05" H 5250 900 50  0001 C CNN
+F 1 "GNDD" H 5250 1000 50  0000 C CNN
+F 2 "" H 5250 1150 60  0000 C CNN
+F 3 "" H 5250 1150 60  0000 C CNN
+	1    5250 1150
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -160,9 +160,9 @@ Wire Wire Line
 Wire Wire Line
 	2200 1150 1400 1150
 Wire Wire Line
-	4650 1150 4900 1150
+	4250 1150 4500 1150
 Wire Wire Line
-	5400 1150 5650 1150
+	5000 1150 5250 1150
 $Comp
 L pwr_BeagleBone:SYS_5V #PWR010
 U 1 1 55898497
@@ -225,12 +225,12 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_02x23_Odd_Even P8
 U 1 1 55DF7DE1
-P 5100 2250
-F 0 "P8" H 5100 3450 50  0000 C CNN
-F 1 "BeagleBone_Black_Header" V 5150 2300 50  0000 C CNN
-F 2 "Socket_BeagleBone_Black:Socket_BeagleBone_Black" H 5100 1400 60  0001 C CNN
-F 3 "" H 5100 1400 60  0000 C CNN
-	1    5100 2250
+P 4700 2250
+F 0 "P8" H 4700 3450 50  0000 C CNN
+F 1 "BeagleBone_Black_Header" V 4750 2300 50  0000 C CNN
+F 2 "Socket_BeagleBone_Black:Socket_BeagleBone_Black" H 4700 1400 60  0001 C CNN
+F 3 "" H 4700 1400 60  0000 C CNN
+	1    4700 2250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -252,33 +252,31 @@ Wire Wire Line
 Wire Wire Line
 	1800 2450 2200 2450
 Wire Wire Line
-	2700 2550 3100 2550
-Wire Wire Line
 	2700 2650 3450 2650
 Wire Wire Line
 	2700 2750 3450 2750
 Wire Wire Line
-	4500 1450 4900 1450
+	4100 1450 4500 1450
 Wire Wire Line
-	5400 1450 5800 1450
+	5000 1450 5400 1450
 Wire Wire Line
-	5400 1950 5800 1950
+	5000 1950 5400 1950
 Wire Wire Line
-	5400 1850 5800 1850
+	5000 1850 5400 1850
 Wire Wire Line
-	5400 1750 5800 1750
+	5000 1750 5400 1750
 Wire Wire Line
-	5400 1650 5800 1650
+	5000 1650 5400 1650
 Wire Wire Line
-	5400 1550 5800 1550
+	5000 1550 5400 1550
 Wire Wire Line
-	4500 1550 4900 1550
+	4100 1550 4500 1550
 Wire Wire Line
-	4500 1650 4900 1650
+	4100 1650 4500 1650
 Wire Wire Line
-	4500 1850 4900 1850
+	4100 1850 4500 1850
 Wire Wire Line
-	4500 1950 4900 1950
+	4100 1950 4500 1950
 Text Label 1800 1850 0    50   ~ 0
 GPIO_48
 Text Label 3100 1650 2    50   ~ 0
@@ -291,29 +289,29 @@ Text Label 1800 2450 0    50   ~ 0
 GPIO_115
 Text Label 3100 2550 2    50   ~ 0
 GPIO_112
-Text Label 4500 1450 0    50   ~ 0
+Text Label 4100 1450 0    50   ~ 0
 GPIO_66
-Text Label 4500 1550 0    50   ~ 0
+Text Label 4100 1550 0    50   ~ 0
 GPIO_69
-Text Label 4500 1650 0    50   ~ 0
+Text Label 4100 1650 0    50   ~ 0
 GPIO_45
-Text Label 4500 1850 0    50   ~ 0
+Text Label 4100 1850 0    50   ~ 0
 GPIO_47
-Text Label 4500 1950 0    50   ~ 0
+Text Label 4100 1950 0    50   ~ 0
 GPIO_27
-Text Label 5800 1450 2    50   ~ 0
+Text Label 5400 1450 2    50   ~ 0
 GPIO_67
-Text Label 5800 1550 2    50   ~ 0
+Text Label 5400 1550 2    50   ~ 0
 GPIO_68
-Text Label 5800 1650 2    50   ~ 0
+Text Label 5400 1650 2    50   ~ 0
 GPIO_44
-Text Label 5800 1750 2    50   ~ 0
+Text Label 5400 1750 2    50   ~ 0
 GPIO_26
-Text Label 5800 1850 2    50   ~ 0
+Text Label 5400 1850 2    50   ~ 0
 GPIO_46
-Text Label 5800 1950 2    50   ~ 0
+Text Label 5400 1950 2    50   ~ 0
 GPIO_65
-Text Label 5800 2350 2    50   ~ 0
+Text Label 5400 2350 2    50   ~ 0
 GPIO_61
 Wire Wire Line
 	1800 2150 2200 2150
@@ -366,130 +364,130 @@ ETHRPWM1A
 Text Label 3100 1850 2    50   ~ 0
 ETHRPWM1B
 Wire Wire Line
-	4500 1750 4900 1750
+	4100 1750 4500 1750
 Wire Wire Line
-	4500 1350 4900 1350
+	4100 1350 4500 1350
 Wire Wire Line
-	4500 1250 4900 1250
+	4100 1250 4500 1250
 Wire Wire Line
-	5400 1250 5800 1250
+	5000 1250 5400 1250
 Wire Wire Line
-	5400 1350 5800 1350
+	5000 1350 5400 1350
 Wire Wire Line
-	5400 2050 5800 2050
+	5000 2050 5400 2050
 Wire Wire Line
-	5400 2150 5800 2150
+	5000 2150 5400 2150
 Wire Wire Line
-	4500 2250 4900 2250
+	4100 2250 4500 2250
 Wire Wire Line
-	4500 2150 4900 2150
+	4100 2150 4500 2150
 Wire Wire Line
-	4500 2050 4900 2050
+	4100 2050 4500 2050
 Wire Wire Line
-	4500 2350 4900 2350
+	4100 2350 4500 2350
 Wire Wire Line
-	4500 2450 4900 2450
+	4100 2450 4500 2450
 Wire Wire Line
-	4500 2550 4900 2550
+	4100 2550 4500 2550
 Wire Wire Line
-	4500 2650 4900 2650
+	4100 2650 4500 2650
 Wire Wire Line
-	4500 2750 4900 2750
+	4100 2750 4500 2750
 Wire Wire Line
-	5400 2750 5800 2750
+	5000 2750 5400 2750
 Wire Wire Line
-	5400 2650 5800 2650
+	5000 2650 5400 2650
 Wire Wire Line
-	5400 2550 5800 2550
+	5000 2550 5400 2550
 Wire Wire Line
-	5400 2450 5800 2450
+	5000 2450 5400 2450
 Wire Wire Line
-	4500 2850 4900 2850
+	4100 2850 4500 2850
 Wire Wire Line
-	4500 2950 4900 2950
+	4100 2950 4500 2950
 Wire Wire Line
-	4500 3050 4900 3050
+	4100 3050 4500 3050
 Wire Wire Line
-	4500 3150 4900 3150
+	4100 3150 4500 3150
 Wire Wire Line
-	4500 3250 4900 3250
+	4100 3250 4500 3250
 Wire Wire Line
-	4500 3350 4900 3350
+	4100 3350 4500 3350
 Wire Wire Line
-	5400 3350 5800 3350
+	5000 3350 5400 3350
 Wire Wire Line
-	5400 3250 5800 3250
+	5000 3250 5400 3250
 Wire Wire Line
-	5400 3150 5800 3150
+	5000 3150 5400 3150
 Wire Wire Line
-	5400 3050 5800 3050
+	5000 3050 5400 3050
 Wire Wire Line
-	5400 2950 5800 2950
+	5000 2950 5400 2950
 Wire Wire Line
-	5400 2850 5800 2850
-Text Label 4500 1750 0    50   ~ 0
+	5000 2850 5400 2850
+Text Label 4100 1750 0    50   ~ 0
 ETHRPWM2B
-Text Label 4500 2050 0    50   ~ 0
+Text Label 4100 2050 0    50   ~ 0
 ETHRPWM2A
-Text Label 5800 2050 2    50   ~ 0
+Text Label 5400 2050 2    50   ~ 0
 GPIO_63
-Text Label 5800 2150 2    50   ~ 0
+Text Label 5400 2150 2    50   ~ 0
 GPIO_37
-Text Label 5800 2250 2    50   ~ 0
+Text Label 5400 2250 2    50   ~ 0
 GPIO_33
-Text Label 5800 2450 2    50   ~ 0
+Text Label 5400 2450 2    50   ~ 0
 GPIO_88
-Text Label 5800 2550 2    50   ~ 0
+Text Label 5400 2550 2    50   ~ 0
 GPIO_89
-Text Label 5800 2650 2    50   ~ 0
+Text Label 5400 2650 2    50   ~ 0
 UART5_RTSN
-Text Label 5800 2750 2    50   ~ 0
+Text Label 5400 2750 2    50   ~ 0
 UART3_RTSN
-Text Label 5800 2850 2    50   ~ 0
+Text Label 5400 2850 2    50   ~ 0
 UART3_CTSN
-Text Label 5800 2950 2    50   ~ 0
+Text Label 5400 2950 2    50   ~ 0
 UART5_RXD+
-Text Label 5800 3050 2    50   ~ 0
+Text Label 5400 3050 2    50   ~ 0
 GPIO_77
-Text Label 5800 3250 2    50   ~ 0
+Text Label 5400 3250 2    50   ~ 0
 GPIO_73
-Text Label 5800 3150 2    50   ~ 0
+Text Label 5400 3150 2    50   ~ 0
 GPIO_75
-Text Label 5800 3350 2    50   ~ 0
+Text Label 5400 3350 2    50   ~ 0
 GPIO_71
-Text Label 4500 3350 0    50   ~ 0
+Text Label 4100 3350 0    50   ~ 0
 GPIO_70
-Text Label 4500 3250 0    50   ~ 0
+Text Label 4100 3250 0    50   ~ 0
 GPIO_72
-Text Label 4500 3150 0    50   ~ 0
+Text Label 4100 3150 0    50   ~ 0
 GPIO_74
-Text Label 4500 3050 0    50   ~ 0
+Text Label 4100 3050 0    50   ~ 0
 GPIO_76
-Text Label 4500 2950 0    50   ~ 0
+Text Label 4100 2950 0    50   ~ 0
 UART5_TXD+
-Text Label 4500 2850 0    50   ~ 0
+Text Label 4100 2850 0    50   ~ 0
 UART4_CTSN
-Text Label 4500 2750 0    50   ~ 0
+Text Label 4100 2750 0    50   ~ 0
 UART4_RSTN
-Text Label 4500 2650 0    50   ~ 0
+Text Label 4100 2650 0    50   ~ 0
 UART5_CSTN+
-Text Label 4500 2550 0    50   ~ 0
+Text Label 4100 2550 0    50   ~ 0
 GPIO_87
-Text Label 4500 2450 0    50   ~ 0
+Text Label 4100 2450 0    50   ~ 0
 GPIO_86
-Text Label 4500 2250 0    50   ~ 0
+Text Label 4100 2250 0    50   ~ 0
 GPIO_36
-Text Label 4500 2350 0    50   ~ 0
+Text Label 4100 2350 0    50   ~ 0
 GPIO_32
-Text Label 4500 2150 0    50   ~ 0
+Text Label 4100 2150 0    50   ~ 0
 GPIO_62
-Text Label 5800 1250 2    50   ~ 0
+Text Label 5400 1250 2    50   ~ 0
 GPIO_39
-Text Label 5800 1350 2    50   ~ 0
+Text Label 5400 1350 2    50   ~ 0
 GPIO_35
-Text Label 4500 1250 0    50   ~ 0
+Text Label 4100 1250 0    50   ~ 0
 GPIO_38
-Text Label 4500 1350 0    50   ~ 0
+Text Label 4100 1350 0    50   ~ 0
 GPIO_34
 Text Label 3100 1950 2    50   ~ 0
 SPIO_D1
@@ -540,11 +538,9 @@ Wire Wire Line
 Wire Wire Line
 	1750 1550 2200 1550
 Wire Wire Line
-	650  3850 1050 3850
+	5400 2250 5000 2250
 Wire Wire Line
-	5800 2250 5400 2250
-Wire Wire Line
-	5400 2350 5800 2350
+	5000 2350 5400 2350
 $Comp
 L Connector:Screw_Terminal_01x02 J2
 U 1 1 5E6E5543
@@ -575,51 +571,51 @@ $EndSheet
 $Comp
 L Connector:USB_B_Micro J3
 U 1 1 5EDD8DEB
-P 6500 1850
-F 0 "J3" H 6557 2317 50  0000 C CNN
-F 1 "USB_B_Micro" H 6557 2226 50  0000 C CNN
-F 2 "" H 6650 1800 50  0001 C CNN
-F 3 "~" H 6650 1800 50  0001 C CNN
-	1    6500 1850
+P 6550 2400
+F 0 "J3" H 6607 2867 50  0000 C CNN
+F 1 "USB_B_Micro" H 6607 2776 50  0000 C CNN
+F 2 "" H 6700 2350 50  0001 C CNN
+F 3 "~" H 6700 2350 50  0001 C CNN
+	1    6550 2400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7050 1650 6800 1650
+	7100 2200 6850 2200
 Wire Wire Line
-	6500 2350 6500 2250
-NoConn ~ 6800 1850
-NoConn ~ 6800 1950
+	6550 2900 6550 2800
+NoConn ~ 6850 2400
+NoConn ~ 6850 2500
 $Comp
 L power:+5V #PWR0102
 U 1 1 5EE1E473
-P 7050 1650
-F 0 "#PWR0102" H 7050 1500 50  0001 C CNN
-F 1 "+5V" H 7050 1790 50  0000 C CNN
-F 2 "" H 7050 1650 60  0000 C CNN
-F 3 "" H 7050 1650 60  0000 C CNN
-	1    7050 1650
+P 7100 2200
+F 0 "#PWR0102" H 7100 2050 50  0001 C CNN
+F 1 "+5V" H 7100 2340 50  0000 C CNN
+F 2 "" H 7100 2200 60  0000 C CNN
+F 3 "" H 7100 2200 60  0000 C CNN
+	1    7100 2200
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:Conn_01x08_Male J1
 U 1 1 5EE42181
-P 6750 3500
-F 0 "J1" H 6858 3981 50  0000 C CNN
-F 1 "Conn_01x08_Male" H 6858 3890 50  0000 C CNN
-F 2 "" H 6750 3500 50  0001 C CNN
-F 3 "~" H 6750 3500 50  0001 C CNN
-	1    6750 3500
+P 10100 1350
+F 0 "J1" H 10208 1831 50  0000 C CNN
+F 1 "Conn_01x08_Male" H 10208 1740 50  0000 C CNN
+F 2 "" H 10100 1350 50  0001 C CNN
+F 3 "~" H 10100 1350 50  0001 C CNN
+	1    10100 1350
 	1    0    0    -1  
 $EndComp
-Text Notes 6750 2900 0    50   ~ 0
-8 GPIOs
-Text Notes 8450 3050 0    50   ~ 0
-UART1 -> UART1
-Text Notes 8450 3150 0    50   ~ 0
-UART2 -> UART2
-Text Notes 8450 2850 0    50   ~ 0
-MOTOR CONTROL
-Text Notes 8300 1900 0    50   ~ 0
+Text Notes 10300 800  0    50   ~ 0
+8 GPIOs for user
+Text Notes 8600 3100 0    50   ~ 0
+UART2 -> UART1
+Text Notes 8600 3200 0    50   ~ 0
+UART3 -> UART2
+Text Notes 8600 2900 0    50   ~ 0
+MOTOR CONTROL\nBB          VCU
+Text Notes 8100 2300 0    50   ~ 0
 BBUART4 -> UART on VCU (not UART1)
 Text Notes 9050 4400 0    50   ~ 0
 CAN
@@ -654,16 +650,16 @@ Wire Wire Line
 $Comp
 L power:GNDD #PWR0101
 U 1 1 5EDF66ED
-P 6500 2350
-F 0 "#PWR0101" H 6500 2100 50  0001 C CNN
-F 1 "GNDD" H 6500 2200 50  0000 C CNN
-F 2 "" H 6500 2350 60  0000 C CNN
-F 3 "" H 6500 2350 60  0000 C CNN
-	1    6500 2350
+P 6550 2900
+F 0 "#PWR0101" H 6550 2650 50  0001 C CNN
+F 1 "GNDD" H 6550 2750 50  0000 C CNN
+F 2 "" H 6550 2900 60  0000 C CNN
+F 3 "" H 6550 2900 60  0000 C CNN
+	1    6550 2900
 	1    0    0    -1  
 $EndComp
-NoConn ~ 6400 2250
-NoConn ~ 6800 2050
+NoConn ~ 6450 2800
+NoConn ~ 6850 2600
 Text Notes 8500 5700 0    50   ~ 0
 TODO:\nGet CAN TX and RX for BOTH BB and VCU
 $Comp
@@ -709,39 +705,6 @@ F 2 "" H 5450 6300 50  0001 C CNN
 F 3 "~" H 5450 6300 50  0001 C CNN
 	1    5450 6300
 	-1   0    0    1   
-$EndComp
-$Comp
-L Connector:Conn_01x08_Female J500
-U 1 1 5E6A0220
-P 3600 5150
-F 0 "J500" H 3628 5126 50  0000 L CNN
-F 1 "Conn_01x08_Female" H 3628 5035 50  0000 L CNN
-F 2 "" H 3600 5150 50  0001 C CNN
-F 3 "~" H 3600 5150 50  0001 C CNN
-	1    3600 5150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x08_Female J503
-U 1 1 5E6A0226
-P 3600 6050
-F 0 "J503" H 3628 6026 50  0000 L CNN
-F 1 "Conn_01x08_Female" H 3628 5935 50  0000 L CNN
-F 2 "" H 3600 6050 50  0001 C CNN
-F 3 "~" H 3600 6050 50  0001 C CNN
-	1    3600 6050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x08_Female J505
-U 1 1 5E6A022C
-P 3600 6950
-F 0 "J505" H 3628 6926 50  0000 L CNN
-F 1 "Conn_01x08_Female" H 3628 6835 50  0000 L CNN
-F 2 "" H 3600 6950 50  0001 C CNN
-F 3 "~" H 3600 6950 50  0001 C CNN
-	1    3600 6950
-	1    0    0    -1  
 $EndComp
 NoConn ~ 5650 6000
 NoConn ~ 5650 6400
@@ -794,18 +757,7 @@ F 3 "" H 6350 5100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 5150 4800 0    50   ~ 0
-check how to power
-$Comp
-L power:+5VA #PWR?
-U 1 1 5E7BF349
-P 2850 4950
-F 0 "#PWR?" H 2850 4800 50  0001 C CNN
-F 1 "+5VA" H 2865 5123 50  0000 C CNN
-F 2 "" H 2850 4950 50  0001 C CNN
-F 3 "" H 2850 4950 50  0001 C CNN
-	1    2850 4950
-	1    0    0    -1  
-$EndComp
+check how to power - 5V0? appears to o/p of vcu brd reg
 $Comp
 L power:+5VA #PWR?
 U 1 1 5E7C11E8
@@ -854,8 +806,6 @@ Wire Notes Line
 	6750 7650 950  7650
 Wire Notes Line
 	950  7650 950  4600
-Wire Wire Line
-	3400 4950 2850 4950
 $Comp
 L power:+5VA #PWR?
 U 1 1 5E9178A9
@@ -941,19 +891,6 @@ F 3 "~" H 1500 5050 50  0001 C CNN
 $EndComp
 $Comp
 L Connector:TestPoint TP?
-U 1 1 5EA19DC2
-P 2850 4950
-AR Path="/5ED986AC/5EA19DC2" Ref="TP?"  Part="1" 
-AR Path="/5EA19DC2" Ref="TP?"  Part="1" 
-F 0 "TP?" H 2908 5068 50  0000 L CNN
-F 1 "TestPoint" H 2908 4977 50  0000 L CNN
-F 2 "" H 3050 4950 50  0001 C CNN
-F 3 "~" H 3050 4950 50  0001 C CNN
-	1    2850 4950
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector:TestPoint TP?
 U 1 1 5EA253A5
 P 1250 4950
 AR Path="/5ED986AC/5EA253A5" Ref="TP?"  Part="1" 
@@ -977,30 +914,234 @@ Wire Wire Line
 	1300 5050 1550 5050
 Connection ~ 1300 5050
 NoConn ~ 1550 4850
-Text Notes 4150 2050 0    47   ~ 0
+Text Notes 3750 2050 0    47   ~ 0
 gpio 22
-Text Notes 4150 1750 0    47   ~ 0
+Text Notes 3750 1750 0    47   ~ 0
 gpio 23
 $Comp
 L Device:LED_ABRG D?
 U 1 1 5EA9FE71
-P 8800 1250
-F 0 "D?" H 8800 1747 50  0000 C CNN
-F 1 "LED_ABRG" H 8800 1656 50  0000 C CNN
-F 2 "" H 8800 1250 50  0001 C CNN
-F 3 "~" H 8800 1250 50  0001 C CNN
-	1    8800 1250
+P 8800 1450
+F 0 "D?" H 8800 1947 50  0000 C CNN
+F 1 "LED_ABRG" H 8800 1856 50  0000 C CNN
+F 2 "" H 8800 1450 50  0001 C CNN
+F 3 "~" H 8800 1450 50  0001 C CNN
+	1    8800 1450
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	10300 1050 10900 1050
+Wire Wire Line
+	10300 1150 10900 1150
+Wire Wire Line
+	10300 1250 10900 1250
+Wire Wire Line
+	10300 1350 10900 1350
+Wire Wire Line
+	10300 1450 10900 1450
+Wire Wire Line
+	10300 1550 10900 1550
+Wire Wire Line
+	10300 1750 10900 1750
+Wire Wire Line
+	10300 1650 10900 1650
+Text Label 10900 1050 2    47   ~ 0
+GPIO_70
+Text Label 10900 1150 2    47   ~ 0
+GPIO_71
+Text Label 10900 1250 2    47   ~ 0
+GPIO_72
+Text Label 10900 1350 2    47   ~ 0
+GPIO_73
+Text Label 10900 1450 2    47   ~ 0
+GPIO_74
+Text Label 10900 1550 2    47   ~ 0
+GPIO_75
+Text Label 10900 1650 2    47   ~ 0
+GPIO_76
+Text Label 10900 1750 2    47   ~ 0
+GPIO_77
+Text Label 7000 1050 2    47   ~ 0
+GPIO_39
+Text Label 7000 1150 2    47   ~ 0
+GPIO_38
 $Comp
-L power:+5V #PWR?
-U 1 1 5EAADF86
-P 9000 1250
-F 0 "#PWR?" H 9000 1100 50  0001 C CNN
-F 1 "+5V" H 9000 1390 50  0000 C CNN
-F 2 "" H 9000 1250 60  0000 C CNN
-F 3 "" H 9000 1250 60  0000 C CNN
-	1    9000 1250
-	0    1    1    0   
+L power:GNDD #PWR?
+U 1 1 5EB8E4E5
+P 9000 1450
+F 0 "#PWR?" H 9000 1200 50  0001 C CNN
+F 1 "GNDD" H 9000 1300 50  0000 C CNN
+F 2 "" H 9000 1450 60  0000 C CNN
+F 3 "" H 9000 1450 60  0000 C CNN
+	1    9000 1450
+	0    -1   -1   0   
 $EndComp
+Text Notes 8500 900  0    47   ~ 0
+Status Indicator
+Text Notes 6150 1800 0    47   ~ 0
+Power / Serial iface (todo)
+Wire Wire Line
+	8650 4900 8050 4900
+Text Label 8050 4900 0    47   ~ 0
+UART1_TXD
+Text Label 8050 5000 0    47   ~ 0
+UART1_RXD
+Wire Wire Line
+	8650 5000 8050 5000
+NoConn ~ 3100 2050
+NoConn ~ 1800 2050
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5EA19DC2
+P 5150 7250
+AR Path="/5ED986AC/5EA19DC2" Ref="TP?"  Part="1" 
+AR Path="/5EA19DC2" Ref="TP?"  Part="1" 
+F 0 "TP?" H 5208 7368 50  0000 L CNN
+F 1 "TestPoint" H 5208 7277 50  0000 L CNN
+F 2 "" H 5350 7250 50  0001 C CNN
+F 3 "~" H 5350 7250 50  0001 C CNN
+	1    5150 7250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5ECF5AF1
+P 5950 5050
+AR Path="/5ED986AC/5ECF5AF1" Ref="TP?"  Part="1" 
+AR Path="/5ECF5AF1" Ref="TP?"  Part="1" 
+F 0 "TP?" H 6008 5168 50  0000 L CNN
+F 1 "TestPoint" H 6008 5077 50  0000 L CNN
+F 2 "" H 6150 5050 50  0001 C CNN
+F 3 "~" H 6150 5050 50  0001 C CNN
+	1    5950 5050
+	1    0    0    -1  
+$EndComp
+Text Notes 2150 5800 0    47   ~ 0
+need two UARTs for Motors?
+NoConn ~ 1550 5750
+NoConn ~ 1550 5850
+NoConn ~ 1550 5950
+NoConn ~ 1550 6050
+NoConn ~ 1550 6150
+NoConn ~ 1550 6250
+NoConn ~ 1550 6350
+NoConn ~ 1550 6450
+NoConn ~ 1550 6650
+NoConn ~ 1550 6750
+NoConn ~ 1550 6850
+NoConn ~ 1550 6950
+NoConn ~ 1550 7050
+NoConn ~ 1550 7150
+Text Notes 1400 6900 1    47   ~ 0
+12 analog pins + 2 dac pins
+Wire Wire Line
+	5150 5800 4650 5800
+Wire Wire Line
+	5650 5800 6150 5800
+$Comp
+L power:GNDD #PWR?
+U 1 1 5EF6D6CB
+P 3050 5100
+F 0 "#PWR?" H 3050 4850 50  0001 C CNN
+F 1 "GNDD" H 3050 4950 50  0000 C CNN
+F 2 "" H 3050 5100 60  0000 C CNN
+F 3 "" H 3050 5100 60  0000 C CNN
+	1    3050 5100
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x10_Female J500
+U 1 1 5E6A0220
+P 3800 5300
+F 0 "J500" H 4200 5200 50  0000 C CNN
+F 1 "Conn_01x08_Female" H 4250 5300 50  0000 C CNN
+F 2 "" H 3800 5300 50  0001 C CNN
+F 3 "~" H 3800 5300 50  0001 C CNN
+	1    3800 5300
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x08_Female J505
+U 1 1 5E6A022C
+P 3800 7200
+F 0 "J505" H 4200 6800 50  0000 C CNN
+F 1 "Conn_01x08_Female" H 4200 6950 50  0000 C CNN
+F 2 "" H 3800 7200 50  0001 C CNN
+F 3 "~" H 3800 7200 50  0001 C CNN
+	1    3800 7200
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x08_Female J503
+U 1 1 5E6A0226
+P 3800 6300
+F 0 "J503" H 4200 6150 50  0000 C CNN
+F 1 "Conn_01x08_Female" H 4200 6300 50  0000 C CNN
+F 2 "" H 3800 6300 50  0001 C CNN
+F 3 "~" H 3800 6300 50  0001 C CNN
+	1    3800 6300
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	3050 5100 3600 5100
+Wire Wire Line
+	3600 6800 3000 6800
+Wire Wire Line
+	3600 6900 3000 6900
+Text Label 3000 6800 0    47   ~ 0
+VCUTXD0
+Text Label 3000 6900 0    47   ~ 0
+VCURXD0
+Text Label 4650 5800 0    47   ~ 0
+VCUTXD1
+Text Label 6150 5800 2    47   ~ 0
+VCURXD1
+Text Notes 3050 4250 0    47   ~ 0
+TO ROUTE:\n8 GPIOs (only have four - I2C?), UARTMC1, UARTMC2, UART4
+Wire Wire Line
+	3250 2550 3250 2300
+Wire Wire Line
+	3250 2300 3600 2300
+Wire Wire Line
+	2700 2550 3250 2550
+Text Label 3600 2300 2    47   ~ 0
+VCURESET
+NoConn ~ 3100 1950
+NoConn ~ 3100 2850
+NoConn ~ 3100 2950
+NoConn ~ 3100 3050
+NoConn ~ 1800 3050
+NoConn ~ 1800 2950
+NoConn ~ 1800 2850
+NoConn ~ 1800 2750
+Wire Wire Line
+	3600 7000 3000 7000
+Wire Wire Line
+	3600 7100 3000 7100
+Wire Wire Line
+	3600 7200 3000 7200
+Wire Wire Line
+	3600 7300 3000 7300
+NoConn ~ 3600 7400
+NoConn ~ 3600 7500
+Wire Wire Line
+	3600 6600 3000 6600
+Wire Wire Line
+	3600 6500 3000 6500
+Text Label 3000 6500 0    47   ~ 0
+VCUTXD3
+Text Label 3000 7000 0    47   ~ 0
+VCUTXD2
+Text Label 3000 7200 0    47   ~ 0
+VCUTXD4
+Text Label 3000 6600 0    47   ~ 0
+VCURXD3
+Text Label 3000 7100 0    47   ~ 0
+VCURXD2
+Text Label 3000 7300 0    47   ~ 0
+VCURXD4
+Wire Wire Line
+	3600 6300 3000 6300
+Text Label 3000 6300 0    47   ~ 0
+VCUGPIO_?
 $EndSCHEMATC
