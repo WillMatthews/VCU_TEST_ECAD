@@ -1146,9 +1146,9 @@ NoConn ~ 5150 6000
 NoConn ~ 5150 6100
 NoConn ~ 5150 6200
 Text Label 9500 4750 0    47   ~ 0
-VCUTXD2
+VCUTXD2A
 Text Label 9500 4650 0    47   ~ 0
-VCURXD2
+VCURXD2A
 NoConn ~ 6200 5500
 NoConn ~ 4550 5500
 NoConn ~ 3100 3150
@@ -1228,9 +1228,9 @@ VCURR
 Text HLabel 8200 4750 2    50   Input ~ 0
 BBRT
 Text Label 9500 4550 0    47   ~ 0
-VCUTXD1
+VCUTXD1A
 Text Label 9500 4450 0    47   ~ 0
-VCURXD1
+VCURXD1A
 Wire Wire Line
 	2850 6500 3600 6500
 Wire Wire Line
@@ -1444,11 +1444,9 @@ F 3 "~" H 10800 2800 50  0001 C CNN
 	1    10600 2800
 	0    -1   -1   0   
 $EndComp
-Text Notes 3750 5700 0    50   ~ 0
-BrakePSensor2
-Text Notes 1700 7050 0    50   ~ 0
+Text Notes 1700 6150 0    50   ~ 0
 TempRout\n
-Text Notes 1700 6950 0    50   ~ 0
+Text Notes 1700 5850 0    50   ~ 0
 TempRin
 Text Notes 1700 6450 0    50   ~ 0
 TempLin
@@ -1458,36 +1456,34 @@ Text Notes 1700 5950 0    50   ~ 0
 PressRout
 Text Notes 1700 6050 0    50   ~ 0
 PressRin
-Text Notes 6200 5800 0    50   ~ 0
-CurrSense (!!!!)
-Text Notes 5700 6900 0    50   ~ 0
-PressLout
-Text Notes 3750 6900 0    50   ~ 0
+Text Notes 1700 4300 0    50   ~ 0
+CurrSense (!!!!)\nWhere is this conn????
+Text Notes 5700 5600 0    50   ~ 0
+PressLin
+Text Notes 4250 5500 0    50   ~ 0
 PressLout
 Wire Wire Line
 	3600 6300 3000 6300
 Text Label 3000 6300 0    50   ~ 0
-VCUTXD1?
+VCUTXD1A
 Wire Wire Line
 	3000 6400 3600 6400
 Text Label 3000 6400 0    50   ~ 0
-VCURXD1?
-Text Notes 2700 4400 0    50   ~ 0
+VCURXD1A
+Text Notes 2850 4400 0    50   ~ 0
 J506:\nNOT IN PINOUT UART0\nPINS 3/4\nCHECK CHECK CHECK
 Wire Wire Line
 	1550 5750 950  5750
 Text Label 950  5750 0    50   ~ 0
-VCUTXD2?
+VCUTXD2A
 Text Label 2050 5500 0    50   ~ 0
-VCUTXD2?
+VCUTXD2A
 Wire Wire Line
 	2050 5500 3600 5500
-Text Notes 3750 4400 0    50   ~ 0
+Text Notes 3900 4400 0    50   ~ 0
 J501, J505:\nNOT IN PINOUT UART2\nPIN3 J505, PIN1 J501\nCHECK CHECK CHECK
 Wire Wire Line
 	2850 6000 3600 6000
-Text Notes 3750 6100 0    50   ~ 0
-CANEnable
 $Comp
 L power:+5V #PWR0116
 U 1 1 5F2CA3FE
@@ -1523,14 +1519,20 @@ Text Notes 3750 5900 0    50   ~ 0
 AudioOut
 Text Notes 3750 6000 0    50   ~ 0
 ASSTrip
-Text Notes 3750 6400 0    50   ~ 0
-TSALState
-Text Notes 4950 4350 0    50   ~ 0
-TSAL State conn to UART1????\n\nNO SPARE UART FOR BOARD TO BOARD !!!!!
-Text Notes 3750 7300 0    50   ~ 0
+Text Notes 6200 5800 0    50   ~ 0
+TSALState (!)
+Text Notes 4800 5700 0    50   ~ 0
 AirCoil2
-Text Notes 3750 6600 0    50   ~ 0
+Text Notes 4800 5600 0    50   ~ 0
 AirCoil1
-Text Notes 3750 7200 0    50   ~ 0
+Text Notes 5700 5700 0    50   ~ 0
 AirCoil3
+Text Notes 3750 5000 0    50   ~ 0
+What is this line?
+NoConn ~ 3000 7100
+NoConn ~ 3000 7000
+Text Notes 950  6350 0    50   ~ 0
+BrakePSensor2
+NoConn ~ 4650 5800
+NoConn ~ 6150 5800
 $EndSCHEMATC
