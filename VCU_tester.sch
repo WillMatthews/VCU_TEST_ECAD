@@ -2095,4 +2095,8 @@ Wire Wire Line
 	9350 8600 9550 8600
 Text Notes 9600 6250 0    50   ~ 0
 CHECK!!\nCSO may not be appropriate.\nTiming may need to be modified.\n\nDatasheet is a mess.\nNo SPI support but it says it does??
+NoConn ~ 5400 1650
+NoConn ~ 4100 1950
+NoConn ~ 5400 1950
+NoConn ~ 4100 2150
 $EndSCHEMATC
