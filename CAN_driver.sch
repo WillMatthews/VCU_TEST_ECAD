@@ -903,4 +903,38 @@ Wire Wire Line
 Connection ~ 4400 4800
 Connection ~ 4450 2200
 Connection ~ 6700 2800
+Text GLabel 9900 3850 2    50   Input ~ 0
+VCUCAN+
+$Comp
+L Device:Jumper JP?
+U 1 1 5F7EB443
+P 9900 4150
+AR Path="/5F7EB443" Ref="JP?"  Part="1" 
+AR Path="/5ED986AC/5F7EB443" Ref="JP?"  Part="1" 
+F 0 "JP?" V 9854 4277 50  0000 L CNN
+F 1 "Jumper" V 9945 4277 50  0000 L CNN
+F 2 "" H 9900 4150 50  0001 C CNN
+F 3 "~" H 9900 4150 50  0001 C CNN
+	1    9900 4150
+	0    1    1    0   
+$EndComp
+Text GLabel 9300 3850 0    50   Input ~ 0
+VCUCAN-
+$Comp
+L Device:Jumper JP?
+U 1 1 5F801A87
+P 9300 4150
+AR Path="/5F801A87" Ref="JP?"  Part="1" 
+AR Path="/5ED986AC/5F801A87" Ref="JP?"  Part="1" 
+F 0 "JP?" V 9254 4277 50  0000 L CNN
+F 1 "Jumper" V 9345 4277 50  0000 L CNN
+F 2 "" H 9300 4150 50  0001 C CNN
+F 3 "~" H 9300 4150 50  0001 C CNN
+	1    9300 4150
+	0    1    1    0   
+$EndComp
+Text GLabel 9900 4450 2    50   Input ~ 0
+BBCAN+
+Text GLabel 9300 4450 0    50   Input ~ 0
+BBCAN-
 $EndSCHEMATC
