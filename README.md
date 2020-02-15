@@ -13,5 +13,6 @@ THINGS TO DO:
 - [ ] Put correct CAN chips
 - [ ] Confirm design with team
 - [ ] Layout
+- [ ] GET LAYOUT FOR THE VCU PINS !!! Cannot find anywhere !!!
 - [ ] Start test software repo
 - [ ] Better documentation for pins
