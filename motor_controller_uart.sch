@@ -187,8 +187,6 @@ Wire Wire Line
 Wire Wire Line
 	4250 2850 4800 2850
 Wire Wire Line
-	4800 2850 4800 4250
-Wire Wire Line
 	4800 4250 4950 4250
 Wire Wire Line
 	4250 3250 4750 3250
@@ -206,8 +204,6 @@ Wire Wire Line
 	4250 3450 4650 3450
 Wire Wire Line
 	4650 3450 4650 5600
-Wire Wire Line
-	4650 5600 4950 5600
 NoConn ~ 4950 3850
 NoConn ~ 4950 3950
 NoConn ~ 4950 4050
@@ -599,4 +595,136 @@ F 3 "~" H 2200 3450 50  0001 C CNN
 	1    2000 3450
 	1    0    0    -1  
 $EndComp
+Text HLabel 2250 2850 1    50   Input ~ 0
+BBLT
+Text HLabel 2350 3050 1    50   Input ~ 0
+BBRT
+Text HLabel 2250 3250 1    50   Input ~ 0
+BBLR
+Text HLabel 2350 3450 1    50   Input ~ 0
+BBRR
+Text HLabel 6550 2850 1    50   Input ~ 0
+VCULT
+Text HLabel 6650 3050 1    50   Input ~ 0
+VCURT
+Text HLabel 6550 3250 1    50   Input ~ 0
+VCULR
+Text HLabel 6650 3450 1    50   Input ~ 0
+VCURR
+$Comp
+L Device:Jumper JP?
+U 1 1 5E9A899E
+P 7200 4950
+AR Path="/5E9A899E" Ref="JP?"  Part="1" 
+AR Path="/5ED986AC/5E9A899E" Ref="JP?"  Part="1" 
+AR Path="/5E9860AF/5E9A899E" Ref="JP6"  Part="1" 
+F 0 "JP6" V 7154 5077 50  0000 L CNN
+F 1 "Jumper" V 7245 5077 50  0000 L CNN
+F 2 "" H 7200 4950 50  0001 C CNN
+F 3 "~" H 7200 4950 50  0001 C CNN
+	1    7200 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper JP?
+U 1 1 5E9A89A5
+P 7200 4500
+AR Path="/5E9A89A5" Ref="JP?"  Part="1" 
+AR Path="/5ED986AC/5E9A89A5" Ref="JP?"  Part="1" 
+AR Path="/5E9860AF/5E9A89A5" Ref="JP5"  Part="1" 
+F 0 "JP5" V 7154 4627 50  0000 L CNN
+F 1 "Jumper" V 7245 4627 50  0000 L CNN
+F 2 "" H 7200 4500 50  0001 C CNN
+F 3 "~" H 7200 4500 50  0001 C CNN
+	1    7200 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper JP?
+U 1 1 5E9BC262
+P 7200 5950
+AR Path="/5E9BC262" Ref="JP?"  Part="1" 
+AR Path="/5ED986AC/5E9BC262" Ref="JP?"  Part="1" 
+AR Path="/5E9860AF/5E9BC262" Ref="JP8"  Part="1" 
+F 0 "JP8" V 7154 6077 50  0000 L CNN
+F 1 "Jumper" V 7245 6077 50  0000 L CNN
+F 2 "" H 7200 5950 50  0001 C CNN
+F 3 "~" H 7200 5950 50  0001 C CNN
+	1    7200 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper JP?
+U 1 1 5E9BC268
+P 7200 5500
+AR Path="/5E9BC268" Ref="JP?"  Part="1" 
+AR Path="/5ED986AC/5E9BC268" Ref="JP?"  Part="1" 
+AR Path="/5E9860AF/5E9BC268" Ref="JP7"  Part="1" 
+F 0 "JP7" V 7154 5627 50  0000 L CNN
+F 1 "Jumper" V 7245 5627 50  0000 L CNN
+F 2 "" H 7200 5500 50  0001 C CNN
+F 3 "~" H 7200 5500 50  0001 C CNN
+	1    7200 5500
+	1    0    0    -1  
+$EndComp
+Connection ~ 4750 4450
+Wire Wire Line
+	7500 4950 9000 4950
+Wire Wire Line
+	9000 4950 9000 4450
+Connection ~ 9000 4450
+Wire Wire Line
+	7500 5500 8950 5500
+Wire Wire Line
+	8950 5500 8950 5400
+Connection ~ 8950 5400
+Wire Wire Line
+	8900 5600 8900 5950
+Wire Wire Line
+	8900 5950 7500 5950
+Connection ~ 8900 5600
+Wire Wire Line
+	9050 4250 9050 4500
+Wire Wire Line
+	7500 4500 9050 4500
+Connection ~ 9050 4250
+Wire Wire Line
+	4650 5600 4950 5600
+Wire Wire Line
+	4800 2850 4800 4250
+Wire Wire Line
+	4800 4250 4800 6000
+Wire Wire Line
+	4800 6000 6250 6000
+Wire Wire Line
+	6250 6000 6250 4500
+Wire Wire Line
+	6250 4500 6900 4500
+Connection ~ 4800 4250
+Wire Wire Line
+	6900 4950 6300 4950
+Wire Wire Line
+	6300 4950 6300 6050
+Wire Wire Line
+	6300 6050 4750 6050
+Wire Wire Line
+	4750 4450 4750 6050
+Wire Wire Line
+	4700 5400 4700 6100
+Wire Wire Line
+	4700 6100 6350 6100
+Wire Wire Line
+	6350 6100 6350 5500
+Wire Wire Line
+	6350 5500 6900 5500
+Connection ~ 4700 5400
+Wire Wire Line
+	6900 5950 6400 5950
+Wire Wire Line
+	6400 5950 6400 6150
+Wire Wire Line
+	6400 6150 4650 6150
+Wire Wire Line
+	4650 6150 4650 5600
+Connection ~ 4650 5600
 $EndSCHEMATC
