@@ -51,8 +51,9 @@ U 1 1 5EAB55D2
 P 3450 2750
 F 0 "U2" H 3450 4131 50  0000 C CNN
 F 1 "MAX3232" H 3450 4040 50  0000 C CNN
-F 2 "" H 3500 1700 50  0001 L CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 3500 1700 50  0001 L CNN
 F 3 "https://datasheets.maximintegrated.com/en/ds/MAX3222-MAX3241.pdf" H 3450 2850 50  0001 C CNN
+F 4 "MAX3232CSE+TCT-ND" H 3450 2750 50  0001 C CNN "Part"
 	1    3450 2750
 	1    0    0    -1  
 $EndComp
@@ -62,8 +63,9 @@ U 1 1 5EAE4A4F
 P 5250 4250
 F 0 "J8" H 5430 4296 50  0000 L CNN
 F 1 "DB9_Male" H 5430 4205 50  0000 L CNN
-F 2 "" H 5250 4250 50  0001 C CNN
+F 2 "Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm" H 5250 4250 50  0001 C CNN
 F 3 " ~" H 5250 4250 50  0001 C CNN
+F 4 "5747840-3" H 5250 4250 50  0001 C CNN "Part"
 	1    5250 4250
 	1    0    0    -1  
 $EndComp
@@ -73,8 +75,9 @@ U 1 1 5EAE98A3
 P 5250 5400
 F 0 "J9" H 5430 5446 50  0000 L CNN
 F 1 "DB9_Male" H 5430 5355 50  0000 L CNN
-F 2 "" H 5250 5400 50  0001 C CNN
+F 2 "Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm" H 5250 5400 50  0001 C CNN
 F 3 " ~" H 5250 5400 50  0001 C CNN
+F 4 "5747840-3" H 5250 5400 50  0001 C CNN "Part"
 	1    5250 5400
 	1    0    0    -1  
 $EndComp
@@ -83,8 +86,8 @@ L Device:C C18
 U 1 1 5EAF9F7C
 P 3800 1000
 F 0 "C18" H 3915 1046 50  0000 L CNN
-F 1 "C" H 3915 955 50  0000 L CNN
-F 2 "" H 3838 850 50  0001 C CNN
+F 1 "100n" H 3915 955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3838 850 50  0001 C CNN
 F 3 "~" H 3800 1000 50  0001 C CNN
 	1    3800 1000
 	1    0    0    -1  
@@ -132,8 +135,8 @@ L Device:C_Small C17
 U 1 1 5EB11330
 P 2250 2000
 F 0 "C17" H 2342 2046 50  0000 L CNN
-F 1 "0.1u" H 2342 1955 50  0000 L CNN
-F 2 "" H 2250 2000 50  0001 C CNN
+F 1 "100n" H 2342 1955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2250 2000 50  0001 C CNN
 F 3 "~" H 2250 2000 50  0001 C CNN
 	1    2250 2000
 	1    0    0    -1  
@@ -151,8 +154,8 @@ L Device:C_Small C19
 U 1 1 5EB13D13
 P 4650 2000
 F 0 "C19" H 4742 2046 50  0000 L CNN
-F 1 "0.1u" H 4742 1955 50  0000 L CNN
-F 2 "" H 4650 2000 50  0001 C CNN
+F 1 "100n" H 4742 1955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4650 2000 50  0001 C CNN
 F 3 "~" H 4650 2000 50  0001 C CNN
 	1    4650 2000
 	-1   0    0    1   
@@ -170,8 +173,8 @@ L Device:C_Small C20
 U 1 1 5EB15FFC
 P 4650 2500
 F 0 "C20" H 4742 2546 50  0000 L CNN
-F 1 "0.1u" H 4742 2455 50  0000 L CNN
-F 2 "" H 4650 2500 50  0001 C CNN
+F 1 "100n" H 4742 2455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4650 2500 50  0001 C CNN
 F 3 "~" H 4650 2500 50  0001 C CNN
 	1    4650 2500
 	-1   0    0    1   
@@ -224,8 +227,9 @@ U 1 1 5EB3D8F3
 P 7700 2750
 F 0 "U4" H 7700 4131 50  0000 C CNN
 F 1 "MAX3232" H 7700 4040 50  0000 C CNN
-F 2 "" H 7750 1700 50  0001 L CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 7750 1700 50  0001 L CNN
 F 3 "https://datasheets.maximintegrated.com/en/ds/MAX3222-MAX3241.pdf" H 7700 2850 50  0001 C CNN
+F 4 "MAX3232CSE+TCT-ND" H 7700 2750 50  0001 C CNN "Part"
 	1    7700 2750
 	1    0    0    -1  
 $EndComp
@@ -235,8 +239,9 @@ U 1 1 5EB3D8F9
 P 9500 4250
 F 0 "J10" H 9680 4296 50  0000 L CNN
 F 1 "DB9_Male" H 9680 4205 50  0000 L CNN
-F 2 "" H 9500 4250 50  0001 C CNN
+F 2 "Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm" H 9500 4250 50  0001 C CNN
 F 3 " ~" H 9500 4250 50  0001 C CNN
+F 4 "5747840-3" H 9500 4250 50  0001 C CNN "Part"
 	1    9500 4250
 	1    0    0    -1  
 $EndComp
@@ -246,8 +251,9 @@ U 1 1 5EB3D8FF
 P 9500 5400
 F 0 "J11" H 9680 5446 50  0000 L CNN
 F 1 "DB9_Male" H 9680 5355 50  0000 L CNN
-F 2 "" H 9500 5400 50  0001 C CNN
+F 2 "Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm" H 9500 5400 50  0001 C CNN
 F 3 " ~" H 9500 5400 50  0001 C CNN
+F 4 "5747840-3" H 9500 5400 50  0001 C CNN "Part"
 	1    9500 5400
 	1    0    0    -1  
 $EndComp
@@ -256,8 +262,8 @@ L Device:C C22
 U 1 1 5EB3D905
 P 8050 1000
 F 0 "C22" H 8165 1046 50  0000 L CNN
-F 1 "C" H 8165 955 50  0000 L CNN
-F 2 "" H 8088 850 50  0001 C CNN
+F 1 "100n" H 8165 955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8088 850 50  0001 C CNN
 F 3 "~" H 8050 1000 50  0001 C CNN
 	1    8050 1000
 	1    0    0    -1  
@@ -305,8 +311,8 @@ L Device:C_Small C21
 U 1 1 5EB3D920
 P 6500 2000
 F 0 "C21" H 6592 2046 50  0000 L CNN
-F 1 "0.1u" H 6592 1955 50  0000 L CNN
-F 2 "" H 6500 2000 50  0001 C CNN
+F 1 "100n" H 6592 1955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6500 2000 50  0001 C CNN
 F 3 "~" H 6500 2000 50  0001 C CNN
 	1    6500 2000
 	1    0    0    -1  
@@ -320,8 +326,8 @@ L Device:C_Small C23
 U 1 1 5EB3D928
 P 8900 2000
 F 0 "C23" H 8992 2046 50  0000 L CNN
-F 1 "0.1u" H 8992 1955 50  0000 L CNN
-F 2 "" H 8900 2000 50  0001 C CNN
+F 1 "100n" H 8992 1955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8900 2000 50  0001 C CNN
 F 3 "~" H 8900 2000 50  0001 C CNN
 	1    8900 2000
 	-1   0    0    1   
@@ -339,8 +345,8 @@ L Device:C_Small C24
 U 1 1 5EB3D932
 P 8900 2500
 F 0 "C24" H 8992 2546 50  0000 L CNN
-F 1 "0.1u" H 8992 2455 50  0000 L CNN
-F 2 "" H 8900 2500 50  0001 C CNN
+F 1 "100n" H 8992 2455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8900 2500 50  0001 C CNN
 F 3 "~" H 8900 2500 50  0001 C CNN
 	1    8900 2500
 	-1   0    0    1   
@@ -385,7 +391,7 @@ U 1 1 5EB4E389
 P 4950 3450
 F 0 "TP31" H 5008 3568 50  0000 L CNN
 F 1 "TestPoint" H 5008 3477 50  0000 L CNN
-F 2 "" H 5150 3450 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 5150 3450 50  0001 C CNN
 F 3 "~" H 5150 3450 50  0001 C CNN
 	1    4950 3450
 	1    0    0    -1  
@@ -396,7 +402,7 @@ U 1 1 5EB51498
 P 4950 3250
 F 0 "TP30" H 5008 3368 50  0000 L CNN
 F 1 "TestPoint" H 5008 3277 50  0000 L CNN
-F 2 "" H 5150 3250 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 5150 3250 50  0001 C CNN
 F 3 "~" H 5150 3250 50  0001 C CNN
 	1    4950 3250
 	1    0    0    -1  
@@ -407,7 +413,7 @@ U 1 1 5EB51815
 P 4950 3050
 F 0 "TP29" H 5008 3168 50  0000 L CNN
 F 1 "TestPoint" H 5008 3077 50  0000 L CNN
-F 2 "" H 5150 3050 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 5150 3050 50  0001 C CNN
 F 3 "~" H 5150 3050 50  0001 C CNN
 	1    4950 3050
 	1    0    0    -1  
@@ -418,7 +424,7 @@ U 1 1 5EB51B4E
 P 4950 2850
 F 0 "TP28" H 5008 2968 50  0000 L CNN
 F 1 "TestPoint" H 5008 2877 50  0000 L CNN
-F 2 "" H 5150 2850 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 5150 2850 50  0001 C CNN
 F 3 "~" H 5150 2850 50  0001 C CNN
 	1    4950 2850
 	1    0    0    -1  
@@ -441,7 +447,7 @@ U 1 1 5EB5BF51
 P 9150 3450
 F 0 "TP39" H 9208 3568 50  0000 L CNN
 F 1 "TestPoint" H 9208 3477 50  0000 L CNN
-F 2 "" H 9350 3450 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 9350 3450 50  0001 C CNN
 F 3 "~" H 9350 3450 50  0001 C CNN
 	1    9150 3450
 	1    0    0    -1  
@@ -452,7 +458,7 @@ U 1 1 5EB5BF57
 P 9150 3250
 F 0 "TP38" H 9208 3368 50  0000 L CNN
 F 1 "TestPoint" H 9208 3277 50  0000 L CNN
-F 2 "" H 9350 3250 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 9350 3250 50  0001 C CNN
 F 3 "~" H 9350 3250 50  0001 C CNN
 	1    9150 3250
 	1    0    0    -1  
@@ -463,7 +469,7 @@ U 1 1 5EB5BF5D
 P 9150 3050
 F 0 "TP37" H 9208 3168 50  0000 L CNN
 F 1 "TestPoint" H 9208 3077 50  0000 L CNN
-F 2 "" H 9350 3050 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 9350 3050 50  0001 C CNN
 F 3 "~" H 9350 3050 50  0001 C CNN
 	1    9150 3050
 	1    0    0    -1  
@@ -474,7 +480,7 @@ U 1 1 5EB5BF63
 P 9150 2850
 F 0 "TP36" H 9208 2968 50  0000 L CNN
 F 1 "TestPoint" H 9208 2877 50  0000 L CNN
-F 2 "" H 9350 2850 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 9350 2850 50  0001 C CNN
 F 3 "~" H 9350 2850 50  0001 C CNN
 	1    9150 2850
 	1    0    0    -1  
@@ -513,7 +519,7 @@ U 1 1 5EB7B3AC
 P 2000 2850
 F 0 "TP24" H 1800 2950 50  0000 L CNN
 F 1 "TestPoint" H 1600 2850 50  0000 L CNN
-F 2 "" H 2200 2850 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 2200 2850 50  0001 C CNN
 F 3 "~" H 2200 2850 50  0001 C CNN
 	1    2000 2850
 	1    0    0    -1  
@@ -524,7 +530,7 @@ U 1 1 5EB82A98
 P 6250 2850
 F 0 "TP32" H 6050 2950 50  0000 L CNN
 F 1 "TestPoint" H 5850 2850 50  0000 L CNN
-F 2 "" H 6450 2850 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 6450 2850 50  0001 C CNN
 F 3 "~" H 6450 2850 50  0001 C CNN
 	1    6250 2850
 	1    0    0    -1  
@@ -535,7 +541,7 @@ U 1 1 5EB82E8D
 P 6250 3050
 F 0 "TP33" H 6050 3150 50  0000 L CNN
 F 1 "TestPoint" H 5850 3050 50  0000 L CNN
-F 2 "" H 6450 3050 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 6450 3050 50  0001 C CNN
 F 3 "~" H 6450 3050 50  0001 C CNN
 	1    6250 3050
 	1    0    0    -1  
@@ -546,7 +552,7 @@ U 1 1 5EB831FB
 P 6250 3250
 F 0 "TP34" H 6050 3350 50  0000 L CNN
 F 1 "TestPoint" H 5850 3250 50  0000 L CNN
-F 2 "" H 6450 3250 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 6450 3250 50  0001 C CNN
 F 3 "~" H 6450 3250 50  0001 C CNN
 	1    6250 3250
 	1    0    0    -1  
@@ -557,7 +563,7 @@ U 1 1 5EB83583
 P 6250 3450
 F 0 "TP35" H 6050 3550 50  0000 L CNN
 F 1 "TestPoint" H 5850 3450 50  0000 L CNN
-F 2 "" H 6450 3450 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 6450 3450 50  0001 C CNN
 F 3 "~" H 6450 3450 50  0001 C CNN
 	1    6250 3450
 	1    0    0    -1  
@@ -568,7 +574,7 @@ U 1 1 5EB8C999
 P 2000 3050
 F 0 "TP25" H 1800 3150 50  0000 L CNN
 F 1 "TestPoint" H 1600 3050 50  0000 L CNN
-F 2 "" H 2200 3050 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 2200 3050 50  0001 C CNN
 F 3 "~" H 2200 3050 50  0001 C CNN
 	1    2000 3050
 	1    0    0    -1  
@@ -579,7 +585,7 @@ U 1 1 5EB8CBE7
 P 2000 3250
 F 0 "TP26" H 1800 3350 50  0000 L CNN
 F 1 "TestPoint" H 1600 3250 50  0000 L CNN
-F 2 "" H 2200 3250 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 2200 3250 50  0001 C CNN
 F 3 "~" H 2200 3250 50  0001 C CNN
 	1    2000 3250
 	1    0    0    -1  
@@ -590,7 +596,7 @@ U 1 1 5EB8CEBD
 P 2000 3450
 F 0 "TP27" H 1800 3550 50  0000 L CNN
 F 1 "TestPoint" H 1600 3450 50  0000 L CNN
-F 2 "" H 2200 3450 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 2200 3450 50  0001 C CNN
 F 3 "~" H 2200 3450 50  0001 C CNN
 	1    2000 3450
 	1    0    0    -1  
@@ -611,62 +617,6 @@ Text HLabel 6550 3250 1    50   Input ~ 0
 VCULR
 Text HLabel 6650 3450 1    50   Input ~ 0
 VCURR
-$Comp
-L Device:Jumper JP?
-U 1 1 5E9A899E
-P 7200 4950
-AR Path="/5E9A899E" Ref="JP?"  Part="1" 
-AR Path="/5ED986AC/5E9A899E" Ref="JP?"  Part="1" 
-AR Path="/5E9860AF/5E9A899E" Ref="JP6"  Part="1" 
-F 0 "JP6" V 7154 5077 50  0000 L CNN
-F 1 "Jumper" V 7245 5077 50  0000 L CNN
-F 2 "" H 7200 4950 50  0001 C CNN
-F 3 "~" H 7200 4950 50  0001 C CNN
-	1    7200 4950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Jumper JP?
-U 1 1 5E9A89A5
-P 7200 4500
-AR Path="/5E9A89A5" Ref="JP?"  Part="1" 
-AR Path="/5ED986AC/5E9A89A5" Ref="JP?"  Part="1" 
-AR Path="/5E9860AF/5E9A89A5" Ref="JP5"  Part="1" 
-F 0 "JP5" V 7154 4627 50  0000 L CNN
-F 1 "Jumper" V 7245 4627 50  0000 L CNN
-F 2 "" H 7200 4500 50  0001 C CNN
-F 3 "~" H 7200 4500 50  0001 C CNN
-	1    7200 4500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Jumper JP?
-U 1 1 5E9BC262
-P 7200 5950
-AR Path="/5E9BC262" Ref="JP?"  Part="1" 
-AR Path="/5ED986AC/5E9BC262" Ref="JP?"  Part="1" 
-AR Path="/5E9860AF/5E9BC262" Ref="JP8"  Part="1" 
-F 0 "JP8" V 7154 6077 50  0000 L CNN
-F 1 "Jumper" V 7245 6077 50  0000 L CNN
-F 2 "" H 7200 5950 50  0001 C CNN
-F 3 "~" H 7200 5950 50  0001 C CNN
-	1    7200 5950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Jumper JP?
-U 1 1 5E9BC268
-P 7200 5500
-AR Path="/5E9BC268" Ref="JP?"  Part="1" 
-AR Path="/5ED986AC/5E9BC268" Ref="JP?"  Part="1" 
-AR Path="/5E9860AF/5E9BC268" Ref="JP7"  Part="1" 
-F 0 "JP7" V 7154 5627 50  0000 L CNN
-F 1 "Jumper" V 7245 5627 50  0000 L CNN
-F 2 "" H 7200 5500 50  0001 C CNN
-F 3 "~" H 7200 5500 50  0001 C CNN
-	1    7200 5500
-	1    0    0    -1  
-$EndComp
 Connection ~ 4750 4450
 Wire Wire Line
 	7500 4950 9000 4950
@@ -727,4 +677,84 @@ Wire Wire Line
 Wire Wire Line
 	4650 6150 4650 5600
 Connection ~ 4650 5600
+$Comp
+L Device:Jumper JP?
+U 1 1 5F91E44B
+P 7200 5950
+AR Path="/5F91E44B" Ref="JP?"  Part="1" 
+AR Path="/5ED986AC/5F91E44B" Ref="JP?"  Part="1" 
+AR Path="/5E9860AF/5F91E44B" Ref="JP8"  Part="1" 
+F 0 "JP8" V 7154 6077 50  0000 L CNN
+F 1 "Jumper" V 7245 6077 50  0000 L CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_1x03_P2.00mm_Vertical" H 7200 5950 50  0001 C CNN
+F 3 "~" H 7200 5950 50  0001 C CNN
+F 4 "SPN02SXCN-RC" V 7200 5950 50  0001 C CNN "Part"
+F 5 "M22-2510305" V 7200 5950 50  0001 C CNN "PartB"
+	1    7200 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper JP?
+U 1 1 5F9214DA
+P 7200 5500
+AR Path="/5F9214DA" Ref="JP?"  Part="1" 
+AR Path="/5ED986AC/5F9214DA" Ref="JP?"  Part="1" 
+AR Path="/5E9860AF/5F9214DA" Ref="JP7"  Part="1" 
+F 0 "JP7" V 7154 5627 50  0000 L CNN
+F 1 "Jumper" V 7245 5627 50  0000 L CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_1x03_P2.00mm_Vertical" H 7200 5500 50  0001 C CNN
+F 3 "~" H 7200 5500 50  0001 C CNN
+F 4 "SPN02SXCN-RC" V 7200 5500 50  0001 C CNN "Part"
+F 5 "M22-2510305" V 7200 5500 50  0001 C CNN "PartB"
+	1    7200 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper JP?
+U 1 1 5F923A95
+P 7200 4950
+AR Path="/5F923A95" Ref="JP?"  Part="1" 
+AR Path="/5ED986AC/5F923A95" Ref="JP?"  Part="1" 
+AR Path="/5E9860AF/5F923A95" Ref="JP6"  Part="1" 
+F 0 "JP6" V 7154 5077 50  0000 L CNN
+F 1 "Jumper" V 7245 5077 50  0000 L CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_1x03_P2.00mm_Vertical" H 7200 4950 50  0001 C CNN
+F 3 "~" H 7200 4950 50  0001 C CNN
+F 4 "SPN02SXCN-RC" V 7200 4950 50  0001 C CNN "Part"
+F 5 "M22-2510305" V 7200 4950 50  0001 C CNN "PartB"
+	1    7200 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper JP?
+U 1 1 5F9260DD
+P 7200 4500
+AR Path="/5F9260DD" Ref="JP?"  Part="1" 
+AR Path="/5ED986AC/5F9260DD" Ref="JP?"  Part="1" 
+AR Path="/5E9860AF/5F9260DD" Ref="JP5"  Part="1" 
+F 0 "JP5" V 7154 4627 50  0000 L CNN
+F 1 "Jumper" V 7245 4627 50  0000 L CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_1x03_P2.00mm_Vertical" H 7200 4500 50  0001 C CNN
+F 3 "~" H 7200 4500 50  0001 C CNN
+F 4 "SPN02SXCN-RC" V 7200 4500 50  0001 C CNN "Part"
+F 5 "M22-2510305" V 7200 4500 50  0001 C CNN "PartB"
+	1    7200 4500
+	1    0    0    -1  
+$EndComp
+Text Label 4300 2850 0    50   ~ 0
+BBLTX
+Text Label 4300 3050 0    50   ~ 0
+BBRTX
+Text Label 4300 3250 0    50   ~ 0
+BBLRX
+Text Label 4300 3450 0    50   ~ 0
+BBRRX
+Text Label 8600 2850 0    50   ~ 0
+VLTX
+Text Label 8600 3050 0    50   ~ 0
+VRTX
+Text Label 8600 3250 0    50   ~ 0
+VLRX
+Text Label 8600 3450 0    50   ~ 0
+VRRX
 $EndSCHEMATC
