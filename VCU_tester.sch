@@ -4,9 +4,9 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 3
-Title ""
-Date ""
-Rev ""
+Title "VCU Test Board"
+Date "2020-02-16"
+Rev "-"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -1751,7 +1751,7 @@ F 3 "" H 8050 1100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 800  11000 0    197  Italic 39
-POWER FROM EXTERNAL BARREL JACK\nUSB NOT SUFFICIENT
+POWER FROM EXTERNAL BARREL JACK.\nUSB NOT SUFFICIENT
 Wire Wire Line
 	13700 7000 14200 7000
 Text Label 14200 7200 2    50   ~ 0
