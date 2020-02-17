@@ -213,7 +213,7 @@ U 1 1 55DF7DBA
 P 2400 2450
 F 0 "P9" H 2400 3650 50  0000 C CNN
 F 1 "BeagleBone_Black_Header" V 2450 2500 50  0000 C CNN
-F 2 "Socket_BeagleBone_Black:Socket_BeagleBone_Black" H 2400 1600 60  0001 C CNN
+F 2 "project:PinHeader_2x23_P2.54mm_Vertical_Flip" H 2400 1600 60  0001 C CNN
 F 3 "" H 2400 1600 60  0000 C CNN
 F 4 "1528-1365-ND" H 2400 2450 50  0001 C CNN "Part"
 	1    2400 2450
@@ -225,7 +225,7 @@ U 1 1 55DF7DE1
 P 4700 2450
 F 0 "P8" H 4700 3650 50  0000 C CNN
 F 1 "BeagleBone_Black_Header" V 4750 2500 50  0000 C CNN
-F 2 "Socket_BeagleBone_Black:Socket_BeagleBone_Black" H 4700 1600 60  0001 C CNN
+F 2 "project:PinHeader_2x23_P2.54mm_Vertical_Flip" H 4700 1600 60  0001 C CNN
 F 3 "" H 4700 1600 60  0000 C CNN
 F 4 "1528-1365-ND" H 4700 2450 50  0001 C CNN "Part"
 	1    4700 2450
@@ -560,10 +560,10 @@ Connection ~ 2850 1200
 Wire Wire Line
 	2850 1200 2850 1150
 $Comp
-L Connector:Conn_01x08_Female J500
+L Connector:Conn_01x08_Female J501
 U 1 1 5E5FE8D2
 P 1750 6950
-F 0 "J500" H 1778 6926 50  0000 L CNB
+F 0 "J501" H 1778 6926 50  0000 L CNB
 F 1 "Conn_01x08_Female" H 1800 7050 50  0000 L CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical" H 1750 6950 50  0001 C CNN
 F 3 "~" H 1750 6950 50  0001 C CNN
@@ -571,10 +571,10 @@ F 3 "~" H 1750 6950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x08_Female J501
+L Connector:Conn_01x08_Female J502
 U 1 1 5E6082CD
 P 1750 7850
-F 0 "J501" H 1778 7826 50  0000 L CNB
+F 0 "J502" H 1778 7826 50  0000 L CNB
 F 1 "Conn_01x08_Female" H 1800 7750 50  0000 L CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical" H 1750 7850 50  0001 C CNN
 F 3 "~" H 1750 7850 50  0001 C CNN
@@ -582,10 +582,10 @@ F 3 "~" H 1750 7850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x08_Female J502
+L Connector:Conn_01x08_Female J504
 U 1 1 5E60D4FC
 P 1750 8750
-F 0 "J502" H 1778 8726 50  0000 L CNB
+F 0 "J504" H 1778 8726 50  0000 L CNB
 F 1 "Conn_01x08_Female" H 1800 8650 50  0000 L CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical" H 1750 8750 50  0001 C CNN
 F 3 "~" H 1750 8750 50  0001 C CNN
@@ -593,10 +593,10 @@ F 3 "~" H 1750 8750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x18_Odd_Even J504
+L Connector_Generic:Conn_02x18_Odd_Even J507
 U 1 1 5E625E8F
 P 5450 8100
-F 0 "J504" H 5550 7050 50  0000 R CNB
+F 0 "J507" H 5550 7050 50  0000 R CNB
 F 1 "Conn_02x18_Odd_Even" H 5900 6950 50  0000 R CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_2x18_P2.54mm_Vertical" H 5450 8100 50  0001 C CNN
 F 3 "~" H 5450 8100 50  0001 C CNN
@@ -872,10 +872,10 @@ F 3 "" H 3050 6900 60  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Connector:Conn_01x10_Female J505
+L Connector:Conn_01x10_Female J500
 U 1 1 5E6A0220
 P 3800 7100
-F 0 "J505" H 3950 7000 50  0000 C CNB
+F 0 "J500" H 3950 7000 50  0000 C CNB
 F 1 "Conn_01x10_Female" H 4250 7100 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical" H 3800 7100 50  0001 C CNN
 F 3 "~" H 3800 7100 50  0001 C CNN
@@ -883,10 +883,10 @@ F 3 "~" H 3800 7100 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Connector:Conn_01x08_Female J507
+L Connector:Conn_01x08_Female J505
 U 1 1 5E6A022C
 P 3800 9000
-F 0 "J507" H 3900 9100 50  0000 C CNB
+F 0 "J505" H 3900 9100 50  0000 C CNB
 F 1 "Conn_01x08_Female" H 4200 9200 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical" H 3800 9000 50  0001 C CNN
 F 3 "~" H 3800 9000 50  0001 C CNN
@@ -894,10 +894,10 @@ F 3 "~" H 3800 9000 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Connector:Conn_01x08_Female J506
+L Connector:Conn_01x08_Female J503
 U 1 1 5E6A0226
 P 3800 8100
-F 0 "J506" H 3950 8000 50  0000 C CNB
+F 0 "J503" H 3950 8000 50  0000 C CNB
 F 1 "Conn_01x08_Female" H 4200 8100 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical" H 3800 8100 50  0001 C CNN
 F 3 "~" H 3800 8100 50  0001 C CNN
