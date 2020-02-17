@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 71)
+    (drawings 72)
     (tracks 672)
     (zones 0)
     (modules 102)
@@ -5360,8 +5360,11 @@
     )
   )
 
-  (gr_text "MAKE CUTOUT BIGGER FOR ETH" (at 107.75 0) (layer F.Cu)
-    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  (gr_text "GET FOOTPRINT FOR VCU BOARD" (at 326.4 114.9) (layer Dwgs.User)
+    (effects (font (size 5 5) (thickness 0.5)))
+  )
+  (gr_text "MAKE CUTOUT BIGGER FOR ETH?" (at 107.75 0) (layer Dwgs.User)
+    (effects (font (size 5 5) (thickness 0.5)))
   )
   (gr_line (start 254.5 22.5) (end 260 194) (layer Edge.Cuts) (width 0.00254) (tstamp 5E4D2EB0))
   (gr_line (start 200.5 22.5) (end 254.5 22.5) (layer Edge.Cuts) (width 0.00254))
