@@ -43,7 +43,7 @@ AR Path="/5E49766F" Ref="J?"  Part="1"
 AR Path="/5ED986AC/5E49766F" Ref="J5"  Part="1" 
 F 0 "J5" H 8130 4346 50  0000 L CNN
 F 1 "DB9_Male" H 8130 4255 50  0000 L CNN
-F 2 "Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm" H 7950 4300 50  0001 C CNN
+F 2 "Connector_Dsub:DSUB-9_Male_Vertical_P2.77x2.84mm_MountingHoles" H 7950 4300 50  0001 C CNN
 F 3 " ~" H 7950 4300 50  0001 C CNN
 F 4 "5747840-3" H 7950 4300 50  0001 C CNN "Part"
 	1    7950 4300
@@ -57,7 +57,7 @@ AR Path="/5E45BF84" Ref="J?"  Part="1"
 AR Path="/5ED986AC/5E45BF84" Ref="J6"  Part="1" 
 F 0 "J6" H 8130 5496 50  0000 L CNN
 F 1 "DB9_Male" H 8130 5405 50  0000 L CNN
-F 2 "Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm" H 7950 5450 50  0001 C CNN
+F 2 "Connector_Dsub:DSUB-9_Male_Vertical_P2.77x2.84mm_MountingHoles" H 7950 5450 50  0001 C CNN
 F 3 " ~" H 7950 5450 50  0001 C CNN
 F 4 "5747840-3" H 7950 5450 50  0001 C CNN "Part"
 	1    7950 5450
@@ -138,7 +138,7 @@ AR Path="/5E53D5CC" Ref="J?"  Part="1"
 AR Path="/5ED986AC/5E53D5CC" Ref="J4"  Part="1" 
 F 0 "J4" H 8130 2496 50  0000 L CNN
 F 1 "DB9_Male" H 8130 2405 50  0000 L CNN
-F 2 "Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm" H 7950 2450 50  0001 C CNN
+F 2 "Connector_Dsub:DSUB-9_Male_Vertical_P2.77x2.84mm_MountingHoles" H 7950 2450 50  0001 C CNN
 F 3 " ~" H 7950 2450 50  0001 C CNN
 F 4 "5747840-3" H 7950 2450 50  0001 C CNN "Part"
 	1    7950 2450
@@ -152,7 +152,7 @@ AR Path="/5E53D5D2" Ref="J?"  Part="1"
 AR Path="/5ED986AC/5E53D5D2" Ref="J3"  Part="1" 
 F 0 "J3" H 8130 1346 50  0000 L CNN
 F 1 "DB9_Male" H 8130 1255 50  0000 L CNN
-F 2 "Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm" H 7950 1300 50  0001 C CNN
+F 2 "Connector_Dsub:DSUB-9_Male_Vertical_P2.77x2.84mm_MountingHoles" H 7950 1300 50  0001 C CNN
 F 3 " ~" H 7950 1300 50  0001 C CNN
 F 4 "5747840-3" H 7950 1300 50  0001 C CNN "Part"
 	1    7950 1300

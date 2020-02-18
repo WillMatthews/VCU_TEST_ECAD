@@ -208,18 +208,6 @@ SYS_RESETN
 Text GLabel 1750 1750 0    50   Input ~ 0
 PWR_BUT
 $Comp
-L Connector_Generic:Conn_02x23_Odd_Even P9
-U 1 1 55DF7DBA
-P 2400 2450
-F 0 "P9" H 2400 3650 50  0000 C CNN
-F 1 "BeagleBone_Black_Header" V 2450 2500 50  0000 C CNN
-F 2 "project:PinHeader_2x23_P2.54mm_Vertical_Flip" H 2400 1600 60  0001 C CNN
-F 3 "" H 2400 1600 60  0000 C CNN
-F 4 "1528-1365-ND" H 2400 2450 50  0001 C CNN "Part"
-	1    2400 2450
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector_Generic:Conn_02x23_Odd_Even P8
 U 1 1 55DF7DE1
 P 4700 2450
@@ -2127,5 +2115,17 @@ F 2 "" H 9100 8000 60  0000 C CNN
 F 3 "" H 9100 8000 60  0000 C CNN
 	1    9100 8000
 	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x23_Odd_Even P9
+U 1 1 55DF7DBA
+P 2400 2450
+F 0 "P9" H 2400 3650 50  0000 C CNN
+F 1 "BeagleBone_Black_Header" V 2450 2500 50  0000 C CNN
+F 2 "project:PinHeader_2x23_P2.54mm_Vertical_Flip" H 2400 1600 60  0001 C CNN
+F 3 "" H 2400 1600 60  0000 C CNN
+F 4 "1528-1365-ND" H 2400 2450 50  0001 C CNN "Part"
+	1    2400 2450
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
