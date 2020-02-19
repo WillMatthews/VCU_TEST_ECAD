@@ -244,18 +244,6 @@ $EndComp
 Wire Wire Line
 	7700 1550 7700 850 
 $Comp
-L power:+3V3 #PWR0126
-U 1 1 5EB3D913
-P 7700 850
-F 0 "#PWR0126" H 7700 700 50  0001 C CNN
-F 1 "+3V3" H 7715 1023 50  0000 C CNN
-F 2 "" H 7700 850 50  0001 C CNN
-F 3 "" H 7700 850 50  0001 C CNN
-	1    7700 850 
-	1    0    0    -1  
-$EndComp
-Connection ~ 7700 850 
-$Comp
 L power:GNDD #PWR0127
 U 1 1 5EB3D91A
 P 7700 3950
@@ -891,4 +879,18 @@ Text Label 7600 4550 0    50   ~ 0
 VRTX
 Text Label 8100 4550 0    50   ~ 0
 VRRX
+$Comp
+L power:+3.3VA #PWR?
+U 1 1 5F36242E
+P 7700 850
+AR Path="/5F36242E" Ref="#PWR?"  Part="1" 
+AR Path="/5E9860AF/5F36242E" Ref="#PWR0119"  Part="1" 
+F 0 "#PWR0119" H 7700 700 50  0001 C CNN
+F 1 "+3.3VA" H 7715 1023 50  0000 C CNN
+F 2 "" H 7700 850 50  0001 C CNN
+F 3 "" H 7700 850 50  0001 C CNN
+	1    7700 850 
+	1    0    0    -1  
+$EndComp
+Connection ~ 7700 850 
 $EndSCHEMATC

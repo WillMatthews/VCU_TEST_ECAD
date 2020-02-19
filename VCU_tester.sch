@@ -1871,16 +1871,14 @@ NoConn ~ 3700 9050
 NoConn ~ 3700 9150
 Wire Wire Line
 	2800 7450 3700 7450
-Text Notes -2600 -2800 0    100  ~ 0
-Changes made (Andrew):\nPD25 (J500-3) fixed to VCURXD2A\nPressLin,PressLout moved to correct pins\nJ507-10 corrected to NC\nConnection to RTC Beagle fixed: SCL/SDA swapped\nRemoved:\n  J507-4 (adc) to GPIO_45\n  J507-5 (adc) to GPIO_46\n  J507-9 (uart) to GPIO_50\n  J507-10 (nc) to GPIO_51
+Text Notes -2600 -600 0    100  ~ 0
+Removed (TO REASSIGN):\n  J507-4 (adc) to GPIO_45\n  J507-5 (adc) to GPIO_46\n  J507-9 (uart) to GPIO_50\n  J507-10 (nc) to GPIO_51
 NoConn ~ 5300 7350
 NoConn ~ 5300 7450
 NoConn ~ 5300 7550
 NoConn ~ 5300 7650
 NoConn ~ 5800 7550
 NoConn ~ 5800 7450
-Text Notes -2600 -950 0    100  ~ 0
-\nReview gpio assignments\n
 NoConn ~ 5300 8550
 Text Notes 5850 8550 0    50   ~ 0
 PA5
@@ -2063,7 +2061,7 @@ F 3 "~" H 2850 1200 50  0001 C CNN
 	1    2850 1200
 	0    -1   -1   0   
 $EndComp
-Text Notes 5450 -400 0    197  Italic 39
+Text Notes -4950 -2450 0    197  Italic 39
 wtf is up with VCU{TX,RX}D2 and VCU{TX,RX}D2A ???
 $Comp
 L Connector:TestPoint TP?
@@ -2193,9 +2191,7 @@ F 3 "" H 4850 9100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes -2600 -1750 0    79   ~ 16
-TODO:\n0) Assign new GPIOs on VCU\n1) ADD RES TO CP1/2 ON USBC\n2) ADD SILKSCREEN FOR WHAT TESTPOINTS ARE!!! (GPIO out of VCU??)
-Text Notes 2100 -1900 0    100  ~ 0
-Changes made (Will):\nBoard initial layout done (NEED GPIOs)\nChanged power bus\n
+TODO:\n0) Assign new GPIOs on VCU\n1) ADD SILKSCREEN FOR WHAT TESTPOINTS ARE!!! (GPIO out of VCU??)
 $Comp
 L Device:C C10
 U 1 1 5F03FB02
@@ -2316,4 +2312,70 @@ Wire Wire Line
 	9100 9950 9100 8200
 Connection ~ 8400 9950
 Connection ~ 9100 8200
+$Comp
+L Mechanical:MountingHole H5
+U 1 1 5F44CF3E
+P 4500 4550
+F 0 "H5" H 4600 4596 50  0000 L CNN
+F 1 "MountingHole" H 4600 4505 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad" H 4500 4550 50  0001 C CNN
+F 3 "~" H 4500 4550 50  0001 C CNN
+	1    4500 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H6
+U 1 1 5F453185
+P 4500 4750
+F 0 "H6" H 4600 4796 50  0000 L CNN
+F 1 "MountingHole" H 4600 4705 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad" H 4500 4750 50  0001 C CNN
+F 3 "~" H 4500 4750 50  0001 C CNN
+	1    4500 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5F4A1F4C
+P 3800 4550
+F 0 "H1" H 3900 4596 50  0000 L CNN
+F 1 "MountingHole" H 3900 4505 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad" H 3800 4550 50  0001 C CNN
+F 3 "~" H 3800 4550 50  0001 C CNN
+	1    3800 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5F4BC44A
+P 3800 4750
+F 0 "H2" H 3900 4796 50  0000 L CNN
+F 1 "MountingHole" H 3900 4705 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad" H 3800 4750 50  0001 C CNN
+F 3 "~" H 3800 4750 50  0001 C CNN
+	1    3800 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5F4D68CE
+P 3800 4950
+F 0 "H3" H 3900 4996 50  0000 L CNN
+F 1 "MountingHole" H 3900 4905 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad" H 3800 4950 50  0001 C CNN
+F 3 "~" H 3800 4950 50  0001 C CNN
+	1    3800 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5F4F0D27
+P 3800 5150
+F 0 "H4" H 3900 5196 50  0000 L CNN
+F 1 "MountingHole" H 3900 5105 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad" H 3800 5150 50  0001 C CNN
+F 3 "~" H 3800 5150 50  0001 C CNN
+	1    3800 5150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

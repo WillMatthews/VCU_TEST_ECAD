@@ -207,7 +207,6 @@ F 3 "~" H 2950 650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Connection ~ 4200 2050
-Connection ~ 4750 2050
 Wire Wire Line
 	2750 1500 3300 1500
 Connection ~ 2750 1500
@@ -315,19 +314,6 @@ F 3 "" H 3300 1500 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	3650 1500 3300 1500
-$Comp
-L power:+3.3V #PWR?
-U 1 1 5E53D641
-P 4750 2050
-AR Path="/5E53D641" Ref="#PWR?"  Part="1" 
-AR Path="/5ED986AC/5E53D641" Ref="#PWR0119"  Part="1" 
-F 0 "#PWR0119" H 4750 1900 50  0001 C CNN
-F 1 "+3V3" H 4750 2190 50  0000 C CNN
-F 2 "" H 4750 2050 60  0000 C CNN
-F 3 "" H 4750 2050 60  0000 C CNN
-	1    4750 2050
-	1    0    0    -1  
-$EndComp
 Text Label 2750 650  0    50   ~ 0
 VCUCAN_TX
 Wire Wire Line
@@ -335,11 +321,7 @@ Wire Wire Line
 Text Label 2750 900  0    50   ~ 0
 VCUCAN_RX
 Wire Wire Line
-	4200 2050 4750 2050
-Wire Wire Line
 	5250 1600 5250 2050
-Wire Wire Line
-	4750 2050 5250 2050
 $Comp
 L power:GNDD #PWR?
 U 1 1 5E66A5FD
@@ -435,7 +417,6 @@ F 3 "~" H 2950 3550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Connection ~ 4200 4950
-Connection ~ 4750 4950
 Wire Wire Line
 	2750 4400 3300 4400
 Connection ~ 2750 4400
@@ -543,19 +524,6 @@ F 3 "" H 3300 4400 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	3650 4400 3300 4400
-$Comp
-L power:+3.3V #PWR?
-U 1 1 5E766408
-P 4750 4950
-AR Path="/5E766408" Ref="#PWR?"  Part="1" 
-AR Path="/5ED986AC/5E766408" Ref="#PWR0131"  Part="1" 
-F 0 "#PWR0131" H 4750 4800 50  0001 C CNN
-F 1 "+3V3" H 4750 5090 50  0000 C CNN
-F 2 "" H 4750 4950 60  0000 C CNN
-F 3 "" H 4750 4950 60  0000 C CNN
-	1    4750 4950
-	1    0    0    -1  
-$EndComp
 Text Label 2750 3550 0    50   ~ 0
 BBCAN_TX
 Wire Wire Line
@@ -563,11 +531,7 @@ Wire Wire Line
 Text Label 2750 3800 0    50   ~ 0
 BBCAN_RX
 Wire Wire Line
-	4200 4950 4750 4950
-Wire Wire Line
 	5250 4500 5250 4950
-Wire Wire Line
-	4750 4950 5250 4950
 $Comp
 L power:GNDD #PWR?
 U 1 1 5E766415
@@ -741,4 +705,40 @@ F 4 "296-48672-1-ND" H 3650 1300 50  0001 C CNN "Part"
 	1    3650 1300
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4750 4950 5250 4950
+Wire Wire Line
+	4200 4950 4750 4950
+Connection ~ 4750 4950
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5E766408
+P 4750 4950
+AR Path="/5E766408" Ref="#PWR?"  Part="1" 
+AR Path="/5ED986AC/5E766408" Ref="#PWR0131"  Part="1" 
+F 0 "#PWR0131" H 4750 4800 50  0001 C CNN
+F 1 "+3V3" H 4750 5090 50  0000 C CNN
+F 2 "" H 4750 4950 60  0000 C CNN
+F 3 "" H 4750 4950 60  0000 C CNN
+	1    4750 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 2050 4750 2050
+$Comp
+L power:+3.3VA #PWR?
+U 1 1 5F34AABC
+P 4750 2050
+AR Path="/5F34AABC" Ref="#PWR?"  Part="1" 
+AR Path="/5ED986AC/5F34AABC" Ref="#PWR0115"  Part="1" 
+F 0 "#PWR0115" H 4750 1900 50  0001 C CNN
+F 1 "+3.3VA" H 4765 2223 50  0000 C CNN
+F 2 "" H 4750 2050 50  0001 C CNN
+F 3 "" H 4750 2050 50  0001 C CNN
+	1    4750 2050
+	1    0    0    -1  
+$EndComp
+Connection ~ 4750 2050
+Wire Wire Line
+	4750 2050 5250 2050
 $EndSCHEMATC
