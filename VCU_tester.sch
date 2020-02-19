@@ -993,8 +993,6 @@ NoConn ~ 9000 8350
 NoConn ~ 9000 8450
 NoConn ~ 9000 9650
 NoConn ~ 9000 9550
-NoConn ~ 9000 7650
-NoConn ~ 9000 7550
 $Comp
 L power:GNDD #PWR0103
 U 1 1 5FFC2327
@@ -1253,10 +1251,6 @@ Wire Wire Line
 Wire Wire Line
 	8200 3200 8400 3200
 Connection ~ 8200 3400
-Wire Wire Line
-	8400 3200 8800 3200
-Wire Wire Line
-	8800 3200 8800 3600
 Connection ~ 8400 3200
 NoConn ~ 9300 4100
 NoConn ~ 9300 3800
@@ -1886,7 +1880,7 @@ NoConn ~ 5300 7650
 NoConn ~ 5800 7550
 NoConn ~ 5800 7450
 Text Notes -2600 -950 0    100  ~ 0
-Recommended changes:\nRemove J507-27 to GPIO_22\nReview gpio assignments\nUSB-C CC1/2 each needs 5.1k pulldown\nUse keystone 1060 cr2032 holder, it looks less jank
+\nReview gpio assignments\n
 NoConn ~ 5300 8550
 Text Notes 5850 8550 0    50   ~ 0
 PA5
@@ -2199,7 +2193,127 @@ F 3 "" H 4850 9100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes -2600 -1750 0    79   ~ 16
-TODO:\n0) Assign new GPIOs on VCU\n1) ADD RES TO CP1/2 ON USBC\n2) ADD SILKSCREEN FOR WHAT TESTPOINTS ARE!!! (GPIO out of VCU??)\n3) CHANGE FOOTPRINT OF TCAN
-Text Notes 2100 -2000 0    100  ~ 0
+TODO:\n0) Assign new GPIOs on VCU\n1) ADD RES TO CP1/2 ON USBC\n2) ADD SILKSCREEN FOR WHAT TESTPOINTS ARE!!! (GPIO out of VCU??)
+Text Notes 2100 -1900 0    100  ~ 0
 Changes made (Will):\nBoard initial layout done (NEED GPIOs)\nChanged power bus\n
+$Comp
+L Device:C C10
+U 1 1 5F03FB02
+P 9000 5000
+F 0 "C10" H 9115 5046 50  0000 L CNN
+F 1 "100p" H 9115 4955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9038 4850 50  0001 C CNN
+F 3 "~" H 9000 5000 50  0001 C CNN
+	1    9000 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C12
+U 1 1 5F0588C3
+P 9400 5000
+F 0 "C12" H 9515 5046 50  0000 L CNN
+F 1 "10n" H 9515 4955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9438 4850 50  0001 C CNN
+F 3 "~" H 9400 5000 50  0001 C CNN
+	1    9400 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8800 4950 8800 4850
+Wire Wire Line
+	8800 4850 9000 4850
+Connection ~ 8800 4950
+Connection ~ 9000 4850
+Wire Wire Line
+	9000 4850 9400 4850
+Wire Wire Line
+	9000 5150 9400 5150
+Wire Wire Line
+	9400 5150 9400 6100
+Wire Wire Line
+	9400 6100 8800 6100
+Wire Wire Line
+	8800 6100 8800 6150
+Connection ~ 9400 5150
+Connection ~ 8800 6150
+$Comp
+L Device:C C9
+U 1 1 5F0BE09F
+P 9000 3350
+F 0 "C9" H 9115 3396 50  0000 L CNN
+F 1 "100p" H 9115 3305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9038 3200 50  0001 C CNN
+F 3 "~" H 9000 3350 50  0001 C CNN
+	1    9000 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C11
+U 1 1 5F0BE0A5
+P 9400 3350
+F 0 "C11" H 9515 3396 50  0000 L CNN
+F 1 "10n" H 9515 3305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9438 3200 50  0001 C CNN
+F 3 "~" H 9400 3350 50  0001 C CNN
+	1    9400 3350
+	1    0    0    -1  
+$EndComp
+Connection ~ 9000 3200
+Wire Wire Line
+	9000 3200 9400 3200
+Wire Wire Line
+	9000 3500 9400 3500
+Wire Wire Line
+	9400 3500 9400 4400
+Connection ~ 9400 3500
+Wire Wire Line
+	8800 4400 9400 4400
+Connection ~ 8800 4400
+Wire Wire Line
+	8400 3200 8800 3200
+Wire Wire Line
+	8800 3200 8800 3600
+Connection ~ 8800 3200
+Wire Wire Line
+	8800 3200 9000 3200
+$Comp
+L Device:R R11
+U 1 1 5F164F59
+P 9100 8050
+F 0 "R11" H 9030 8004 50  0000 R CNN
+F 1 "5K1" H 9030 8095 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9030 8050 50  0001 C CNN
+F 3 "~" H 9100 8050 50  0001 C CNN
+	1    9100 8050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R12
+U 1 1 5F186EC3
+P 9250 7800
+F 0 "R12" H 9180 7754 50  0000 R CNN
+F 1 "5K1" H 9180 7845 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9180 7800 50  0001 C CNN
+F 3 "~" H 9250 7800 50  0001 C CNN
+	1    9250 7800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9100 7900 9100 7650
+Wire Wire Line
+	9100 7650 9000 7650
+Wire Wire Line
+	9000 7550 9250 7550
+Wire Wire Line
+	9250 7550 9250 7650
+Wire Wire Line
+	9250 7950 9250 8200
+Wire Wire Line
+	9250 8200 9100 8200
+Wire Wire Line
+	8400 9950 9100 9950
+Wire Wire Line
+	9100 9950 9100 8200
+Connection ~ 8400 9950
+Connection ~ 9100 8200
 $EndSCHEMATC
