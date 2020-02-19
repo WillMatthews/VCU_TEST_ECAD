@@ -670,136 +670,111 @@ Text Label 12650 4050 0    50   ~ 0
 DCAN0_RX
 Text Label 12650 3950 0    50   ~ 0
 DCAN0_TX
-Text Notes 13200 6350 0    50   ~ 0
+Text Notes 13200 5250 0    50   ~ 0
 Non RS232/CAN Testpoints
-Text Label 14200 6900 2    50   ~ 0
+Text Label 14200 5800 2    50   ~ 0
 GPIO_48
-Text Label 14200 6700 2    50   ~ 0
-GPIO_46
-Text Label 14200 6500 2    50   ~ 0
+Text Label 14200 5400 2    50   ~ 0
 GPIO_44
-Text Label 14200 7100 2    50   ~ 0
+Text Label 14200 6000 2    50   ~ 0
 GPIO_50
-Text Label 14200 6800 2    50   ~ 0
+Text Label 14200 5700 2    50   ~ 0
 GPIO_47
-Text Label 14200 6600 2    50   ~ 0
-GPIO_45
 Wire Wire Line
-	14200 6800 13700 6800
+	14200 5700 13700 5700
 Wire Wire Line
-	13700 6600 14200 6600
+	14200 5400 13700 5400
 Wire Wire Line
-	14200 6500 13700 6500
+	14200 5800 13700 5800
 Wire Wire Line
-	13700 6700 14200 6700
+	14200 6000 13700 6000
 Wire Wire Line
-	14200 6900 13700 6900
-Wire Wire Line
-	14200 7100 13700 7100
-Wire Wire Line
-	14200 7200 13700 7200
-Text Label 14200 7600 2    50   ~ 0
+	14200 6100 13700 6100
+Text Label 14200 6500 2    50   ~ 0
 GPIO_7
-Text Label 14200 7500 2    50   ~ 0
+Text Label 14200 6400 2    50   ~ 0
 GPIO_5
-Text Label 14200 7300 2    50   ~ 0
+Text Label 14200 6200 2    50   ~ 0
 GPIO_4
-Text Label 14200 7400 2    50   ~ 0
-GPIO_22
-$Comp
-L Connector:TestPoint TP?
-U 1 1 5F7539B6
-P 13700 7400
-AR Path="/5ED986AC/5F7539B6" Ref="TP?"  Part="1" 
-AR Path="/5F7539B6" Ref="TP44"  Part="1" 
-F 0 "TP44" V 13750 8000 50  0000 L CNN
-F 1 "TestPoint" V 13750 7600 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 13900 7400 50  0001 C CNN
-F 3 "~" H 13900 7400 50  0001 C CNN
-	1    13700 7400
-	0    -1   -1   0   
-$EndComp
 $Comp
 L Connector:TestPoint TP?
 U 1 1 5F7539BC
-P 13700 7300
+P 13700 6200
 AR Path="/5ED986AC/5F7539BC" Ref="TP?"  Part="1" 
 AR Path="/5F7539BC" Ref="TP43"  Part="1" 
-F 0 "TP43" V 13750 7900 50  0000 L CNN
-F 1 "TestPoint" V 13750 7500 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 13900 7300 50  0001 C CNN
-F 3 "~" H 13900 7300 50  0001 C CNN
-	1    13700 7300
+F 0 "TP43" V 13750 6800 50  0000 L CNN
+F 1 "TestPoint" V 13750 6400 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 13900 6200 50  0001 C CNN
+F 3 "~" H 13900 6200 50  0001 C CNN
+	1    13700 6200
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	14200 7400 13700 7400
-Wire Wire Line
-	13700 7300 14200 7300
+	13700 6200 14200 6200
 $Comp
 L Connector:TestPoint TP?
 U 1 1 5F7539C4
-P 13700 7600
+P 13700 6500
 AR Path="/5ED986AC/5F7539C4" Ref="TP?"  Part="1" 
 AR Path="/5F7539C4" Ref="TP46"  Part="1" 
-F 0 "TP46" V 13750 8200 50  0000 L CNN
-F 1 "TestPoint" V 13750 7800 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 13900 7600 50  0001 C CNN
-F 3 "~" H 13900 7600 50  0001 C CNN
-	1    13700 7600
+F 0 "TP46" V 13750 7100 50  0000 L CNN
+F 1 "TestPoint" V 13750 6700 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 13900 6500 50  0001 C CNN
+F 3 "~" H 13900 6500 50  0001 C CNN
+	1    13700 6500
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Connector:TestPoint TP?
 U 1 1 5F7539CA
-P 13700 7500
+P 13700 6400
 AR Path="/5ED986AC/5F7539CA" Ref="TP?"  Part="1" 
 AR Path="/5F7539CA" Ref="TP45"  Part="1" 
-F 0 "TP45" V 13750 8100 50  0000 L CNN
-F 1 "TestPoint" V 13750 7700 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 13900 7500 50  0001 C CNN
-F 3 "~" H 13900 7500 50  0001 C CNN
-	1    13700 7500
+F 0 "TP45" V 13750 7000 50  0000 L CNN
+F 1 "TestPoint" V 13750 6600 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 13900 6400 50  0001 C CNN
+F 3 "~" H 13900 6400 50  0001 C CNN
+	1    13700 6400
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	14200 7600 13700 7600
+	14200 6500 13700 6500
 Wire Wire Line
-	13700 7500 14200 7500
-Text Label 14200 7800 2    47   ~ 0
+	13700 6400 14200 6400
+Text Label 14200 6700 2    47   ~ 0
 UART1_TXD
-Text Label 14200 7700 2    47   ~ 0
+Text Label 14200 6600 2    47   ~ 0
 UART1_RXD
 $Comp
 L Connector:TestPoint TP?
 U 1 1 5F7C8FAE
-P 13700 7800
+P 13700 6700
 AR Path="/5ED986AC/5F7C8FAE" Ref="TP?"  Part="1" 
 AR Path="/5F7C8FAE" Ref="TP48"  Part="1" 
-F 0 "TP48" V 13750 8400 50  0000 L CNN
-F 1 "TestPoint" V 13750 8000 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 13900 7800 50  0001 C CNN
-F 3 "~" H 13900 7800 50  0001 C CNN
-	1    13700 7800
+F 0 "TP48" V 13750 7300 50  0000 L CNN
+F 1 "TestPoint" V 13750 6900 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 13900 6700 50  0001 C CNN
+F 3 "~" H 13900 6700 50  0001 C CNN
+	1    13700 6700
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Connector:TestPoint TP?
 U 1 1 5F7C8FB4
-P 13700 7700
+P 13700 6600
 AR Path="/5ED986AC/5F7C8FB4" Ref="TP?"  Part="1" 
 AR Path="/5F7C8FB4" Ref="TP47"  Part="1" 
-F 0 "TP47" V 13750 8300 50  0000 L CNN
-F 1 "TestPoint" V 13750 7900 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 13900 7700 50  0001 C CNN
-F 3 "~" H 13900 7700 50  0001 C CNN
-	1    13700 7700
+F 0 "TP47" V 13750 7200 50  0000 L CNN
+F 1 "TestPoint" V 13750 6800 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 13900 6600 50  0001 C CNN
+F 3 "~" H 13900 6600 50  0001 C CNN
+	1    13700 6600
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	14200 7800 13700 7800
+	14200 6700 13700 6700
 Wire Wire Line
-	13700 7700 14200 7700
+	13700 6600 14200 6600
 NoConn ~ 5400 1650
 NoConn ~ 4100 1950
 NoConn ~ 5400 1950
@@ -965,20 +940,20 @@ F 3 "" H 8800 1100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	13700 7000 14200 7000
-Text Label 14200 7200 2    50   ~ 0
+	13700 5900 14200 5900
+Text Label 14200 6100 2    50   ~ 0
 GPIO_51
-Text Label 14200 7000 2    50   ~ 0
+Text Label 14200 5900 2    50   ~ 0
 GPIO_49
 $Comp
 L Connector:Conn_01x08_Male J12
 U 1 1 5FB7722A
-P 13500 6800
-F 0 "J12" H 13250 6800 50  0000 C CNN
-F 1 "Conn_01x08_Male" V 13400 6800 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 13500 6800 50  0001 C CNN
-F 3 "~" H 13500 6800 50  0001 C CNN
-	1    13500 6800
+P 13500 5700
+F 0 "J12" H 13250 5700 50  0000 C CNN
+F 1 "Conn_01x08_Male" V 13400 5700 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 13500 5700 50  0001 C CNN
+F 3 "~" H 13500 5700 50  0001 C CNN
+	1    13500 5700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1176,7 +1151,7 @@ U 1 1 601EDE3A
 P 11200 4550
 F 0 "BT1" H 11318 4646 50  0000 L CNN
 F 1 "Battery_Cell" H 11318 4555 50  0000 L CNN
-F 2 "Battery:BatteryHolder_MPD_BC2003_1x2032" V 11200 4610 50  0001 C CNN
+F 2 "Battery:BatteryHolder_Keystone_1060_1x2032" V 11200 4610 50  0001 C CNN
 F 3 "~" V 11200 4610 50  0001 C CNN
 F 4 "BU2032SM-FH-GCT-ND" H 11200 4550 50  0001 C CNN "Part"
 	1    11200 4550
@@ -1521,17 +1496,6 @@ Wire Wire Line
 	4850 9100 5300 9100
 Connection ~ 5300 9100
 $Comp
-L power:+5VA #PWR0110
-U 1 1 5E9178A9
-P 1700 7550
-F 0 "#PWR0110" H 1700 7400 50  0001 C CNN
-F 1 "+5VA" V 1715 7677 50  0000 L CNN
-F 2 "" H 1700 7550 50  0001 C CNN
-F 3 "" H 1700 7550 50  0001 C CNN
-	1    1700 7550
-	0    -1   -1   0   
-$EndComp
-$Comp
 L power:GNDD #PWR0111
 U 1 1 5E91A215
 P 1550 7350
@@ -1842,17 +1806,6 @@ Text Notes 1850 9250 2    50   ~ 0
 PB3
 Text Notes 1850 9350 2    50   ~ 0
 PB2
-$Comp
-L power:+5VA #PWR0109
-U 1 1 5F9D6ABE
-P 4850 9100
-F 0 "#PWR0109" H 4850 8950 50  0001 C CNN
-F 1 "+5VA" H 4865 9273 50  0000 C CNN
-F 2 "" H 4850 9100 50  0001 C CNN
-F 3 "" H 4850 9100 50  0001 C CNN
-	1    4850 9100
-	1    0    0    -1  
-$EndComp
 Text Notes 3900 7450 0    50   ~ 0
 BrakeLights
 NoConn ~ 5800 7350
@@ -1924,17 +1877,15 @@ NoConn ~ 3700 9050
 NoConn ~ 3700 9150
 Wire Wire Line
 	2800 7450 3700 7450
-Text Notes -5100 2250 0    100  ~ 0
-Changes made:\nPD25 (J500-3) fixed to VCURXD2A\nPressLin,PressLout moved to correct pins\nJ507-10 corrected to NC\nConnection to RTC Beagle fixed: SCL/SDA swapped\nRemoved:\n  J507-4 (adc) to GPIO_45\n  J507-5 (adc) to GPIO_46\n  J507-9 (uart) to GPIO_50\n  J507-10 (nc) to GPIO_51
-Text Label 6200 7650 0    50   ~ 0
-GPIO_22
+Text Notes -2600 -2800 0    100  ~ 0
+Changes made (Andrew):\nPD25 (J500-3) fixed to VCURXD2A\nPressLin,PressLout moved to correct pins\nJ507-10 corrected to NC\nConnection to RTC Beagle fixed: SCL/SDA swapped\nRemoved:\n  J507-4 (adc) to GPIO_45\n  J507-5 (adc) to GPIO_46\n  J507-9 (uart) to GPIO_50\n  J507-10 (nc) to GPIO_51
 NoConn ~ 5300 7350
 NoConn ~ 5300 7450
 NoConn ~ 5300 7550
 NoConn ~ 5300 7650
 NoConn ~ 5800 7550
 NoConn ~ 5800 7450
-Text Notes -5100 3900 0    100  ~ 0
+Text Notes -2600 -950 0    100  ~ 0
 Recommended changes:\nRemove J507-27 to GPIO_22\nReview gpio assignments\nUSB-C CC1/2 each needs 5.1k pulldown\nUse keystone 1060 cr2032 holder, it looks less jank
 NoConn ~ 5300 8550
 Text Notes 5850 8550 0    50   ~ 0
@@ -2010,8 +1961,6 @@ Wire Notes Line
 	950  9550 6750 9550
 Wire Notes Line
 	6750 9550 6750 6400
-Wire Wire Line
-	6200 7650 5800 7650
 Wire Wire Line
 	1500 7750 1900 7750
 Wire Wire Line
@@ -2120,8 +2069,137 @@ F 3 "~" H 2850 1200 50  0001 C CNN
 	1    2850 1200
 	0    -1   -1   0   
 $EndComp
-Text Notes -5050 4900 0    100  ~ 0
+Text Notes 5450 -400 0    197  Italic 39
 wtf is up with VCU{TX,RX}D2 and VCU{TX,RX}D2A ???
-Text Notes -5700 5750 0    100  ~ 0
-Can we have usb power ports and bb ethernet facing the same edge?
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5EA210F0
+P 13700 6800
+AR Path="/5ED986AC/5EA210F0" Ref="TP?"  Part="1" 
+AR Path="/5EA210F0" Ref="TP5"  Part="1" 
+F 0 "TP5" V 13750 7400 50  0000 L CNN
+F 1 "TestPoint" V 13750 7000 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 13900 6800 50  0001 C CNN
+F 3 "~" H 13900 6800 50  0001 C CNN
+	1    13700 6800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GNDD #PWR0114
+U 1 1 5EA2162A
+P 13700 6800
+F 0 "#PWR0114" H 13700 6550 50  0001 C CNN
+F 1 "GNDD" V 13704 6690 50  0000 R CNN
+F 2 "" H 13700 6800 50  0001 C CNN
+F 3 "" H 13700 6800 50  0001 C CNN
+	1    13700 6800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5EA87D94
+P 13700 6900
+AR Path="/5ED986AC/5EA87D94" Ref="TP?"  Part="1" 
+AR Path="/5EA87D94" Ref="TP6"  Part="1" 
+F 0 "TP6" V 13750 7500 50  0000 L CNN
+F 1 "TestPoint" V 13750 7100 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 13900 6900 50  0001 C CNN
+F 3 "~" H 13900 6900 50  0001 C CNN
+	1    13700 6900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GNDD #PWR021
+U 1 1 5EA87D9A
+P 13700 6900
+F 0 "#PWR021" H 13700 6650 50  0001 C CNN
+F 1 "GNDD" V 13704 6790 50  0000 R CNN
+F 2 "" H 13700 6900 50  0001 C CNN
+F 3 "" H 13700 6900 50  0001 C CNN
+	1    13700 6900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5EAF5480
+P 13700 7100
+AR Path="/5ED986AC/5EAF5480" Ref="TP?"  Part="1" 
+AR Path="/5EAF5480" Ref="TP8"  Part="1" 
+F 0 "TP8" V 13750 7700 50  0000 L CNN
+F 1 "TestPoint" V 13750 7300 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 13900 7100 50  0001 C CNN
+F 3 "~" H 13900 7100 50  0001 C CNN
+	1    13700 7100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3V3 #PWR023
+U 1 1 5EB26647
+P 13700 7100
+F 0 "#PWR023" H 13700 6950 50  0001 C CNN
+F 1 "+3V3" V 13715 7228 50  0000 L CNN
+F 2 "" H 13700 7100 50  0001 C CNN
+F 3 "" H 13700 7100 50  0001 C CNN
+	1    13700 7100
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR022
+U 1 1 5EAF42CD
+P 13700 7000
+F 0 "#PWR022" H 13700 6850 50  0001 C CNN
+F 1 "+5V" V 13715 7128 50  0000 L CNN
+F 2 "" H 13700 7000 50  0001 C CNN
+F 3 "" H 13700 7000 50  0001 C CNN
+	1    13700 7000
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5EAC2C0A
+P 13700 7000
+AR Path="/5ED986AC/5EAC2C0A" Ref="TP?"  Part="1" 
+AR Path="/5EAC2C0A" Ref="TP7"  Part="1" 
+F 0 "TP7" V 13750 7600 50  0000 L CNN
+F 1 "TestPoint" V 13750 7200 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 13900 7000 50  0001 C CNN
+F 3 "~" H 13900 7000 50  0001 C CNN
+	1    13700 7000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13700 5600 14200 5600
+Text Label 14200 5600 2    50   ~ 0
+GPIO_46
+Wire Wire Line
+	13700 5500 14200 5500
+Text Label 14200 5500 2    50   ~ 0
+GPIO_45
+NoConn ~ 5800 7650
+$Comp
+L power:+5V #PWR0109
+U 1 1 5ED963E3
+P 1700 7550
+F 0 "#PWR0109" H 1700 7400 50  0001 C CNN
+F 1 "+5V" H 1700 7690 50  0000 C CNN
+F 2 "" H 1700 7550 60  0000 C CNN
+F 3 "" H 1700 7550 60  0000 C CNN
+	1    1700 7550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR0110
+U 1 1 5ED996E1
+P 4850 9100
+F 0 "#PWR0110" H 4850 8950 50  0001 C CNN
+F 1 "+5V" H 4850 9240 50  0000 C CNN
+F 2 "" H 4850 9100 60  0000 C CNN
+F 3 "" H 4850 9100 60  0000 C CNN
+	1    4850 9100
+	1    0    0    -1  
+$EndComp
+Text Notes -2600 -1750 0    79   ~ 16
+TODO:\n0) Assign new GPIOs on VCU\n1) ADD RES TO CP1/2 ON USBC\n2) ADD SILKSCREEN FOR WHAT TESTPOINTS ARE!!! (GPIO out of VCU??)\n3) CHANGE FOOTPRINT OF TCAN
+Text Notes 2100 -2000 0    100  ~ 0
+Changes made (Will):\nBoard initial layout done (NEED GPIOs)\nChanged power bus\n
 $EndSCHEMATC
