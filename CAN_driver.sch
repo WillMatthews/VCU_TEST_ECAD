@@ -24,16 +24,16 @@ VCUCAN-
 Text GLabel 9350 3100 2    50   Input ~ 0
 VCUCAN+
 Wire Wire Line
-	7050 5450 7650 5450
+	7050 5450 7200 5450
 Wire Wire Line
 	7650 4300 7050 4300
-Text GLabel 7650 5350 0    50   Input ~ 0
+Text GLabel 7650 5650 0    50   Input ~ 0
 BBCAN+
-Text GLabel 7650 4200 0    50   Input ~ 0
+Text GLabel 7650 4500 0    50   Input ~ 0
 BBCAN+
-Text GLabel 7650 5250 0    50   Input ~ 0
+Text GLabel 7650 5550 0    50   Input ~ 0
 BBCAN-
-Text GLabel 7650 4100 0    50   Input ~ 0
+Text GLabel 7650 4400 0    50   Input ~ 0
 BBCAN-
 $Comp
 L Connector:DB9_Male J?
@@ -146,18 +146,18 @@ F 4 "5747840-3" H 7950 1300 50  0001 C CNN "Part"
 	1    7950 1300
 	1    0    0    -1  
 $EndComp
-Text GLabel 7650 1100 0    50   Input ~ 0
+Text GLabel 7650 1400 0    50   Input ~ 0
 VCUCAN-
-Text GLabel 7650 2250 0    50   Input ~ 0
+Text GLabel 7650 2550 0    50   Input ~ 0
 VCUCAN-
-Text GLabel 7650 1200 0    50   Input ~ 0
+Text GLabel 7650 1500 0    50   Input ~ 0
 VCUCAN+
-Text GLabel 7650 2350 0    50   Input ~ 0
+Text GLabel 7650 2650 0    50   Input ~ 0
 VCUCAN+
 Wire Wire Line
 	7650 1300 7050 1300
 Wire Wire Line
-	7050 2450 7650 2450
+	7050 2450 7200 2450
 $Comp
 L Connector:TestPoint TP56
 U 1 1 5E53D5E2
@@ -336,9 +336,9 @@ F 3 "" H 5250 1300 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	7050 1300 7050 2450
+	7050 1300 7050 1600
 Wire Wire Line
-	7050 4300 7050 5450
+	7050 4300 7050 4600
 $Comp
 L TCAN:TCAN1042HVD U5
 U 1 1 5E7663AA
@@ -607,28 +607,16 @@ Text HLabel 3650 800  2    50   Input ~ 0
 VCUCAN_TX
 NoConn ~ 7650 1000
 NoConn ~ 7650 900 
-NoConn ~ 7650 1400
-NoConn ~ 7650 1500
-NoConn ~ 7650 1600
 NoConn ~ 7650 1700
 NoConn ~ 7650 2850
-NoConn ~ 7650 2750
-NoConn ~ 7650 2650
-NoConn ~ 7650 2550
 NoConn ~ 7650 2150
 NoConn ~ 7650 2050
 NoConn ~ 7650 4700
-NoConn ~ 7650 4600
-NoConn ~ 7650 4500
-NoConn ~ 7650 4400
 NoConn ~ 7650 4000
 NoConn ~ 7650 3900
 NoConn ~ 7650 5150
 NoConn ~ 7650 5050
 NoConn ~ 7650 5850
-NoConn ~ 7650 5750
-NoConn ~ 7650 5650
-NoConn ~ 7650 5550
 $Comp
 L Device:Jumper JP?
 U 1 1 5F90E35D
@@ -741,4 +729,34 @@ $EndComp
 Connection ~ 4750 2050
 Wire Wire Line
 	4750 2050 5250 2050
+NoConn ~ 7650 5350
+NoConn ~ 7650 5250
+NoConn ~ 7650 4200
+NoConn ~ 7650 4100
+Wire Wire Line
+	7650 4600 7050 4600
+Connection ~ 7050 4600
+Wire Wire Line
+	7050 4600 7050 5450
+Wire Wire Line
+	7650 5750 7200 5750
+Wire Wire Line
+	7200 5750 7200 5450
+Connection ~ 7200 5450
+Wire Wire Line
+	7200 5450 7650 5450
+Wire Wire Line
+	7650 2750 7200 2750
+Wire Wire Line
+	7200 2750 7200 2450
+Connection ~ 7200 2450
+Wire Wire Line
+	7200 2450 7650 2450
+NoConn ~ 7650 1200
+NoConn ~ 7650 1100
+Wire Wire Line
+	7650 1600 7050 1600
+Connection ~ 7050 1600
+Wire Wire Line
+	7050 1600 7050 2450
 $EndSCHEMATC

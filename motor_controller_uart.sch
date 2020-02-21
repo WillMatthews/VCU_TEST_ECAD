@@ -50,18 +50,6 @@ F 4 "MAX3232CSE+TCT-ND" H 3450 2750 50  0001 C CNN "Part"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:DB9_Male J8
-U 1 1 5EAE4A4F
-P 1600 5150
-F 0 "J8" H 1780 5196 50  0000 L CNN
-F 1 "DB9_Male" H 1780 5105 50  0000 L CNN
-F 2 "Connector_Dsub:DSUB-9_Male_Vertical_P2.77x2.84mm_MountingHoles" H 1600 5150 50  0001 C CNN
-F 3 " ~" H 1600 5150 50  0001 C CNN
-F 4 "5747840-3" H 1600 5150 50  0001 C CNN "Part"
-	1    1600 5150
-	-1   0    0    -1  
-$EndComp
-$Comp
 L Connector:DB9_Male J9
 U 1 1 5EAE98A3
 P 1600 6300
@@ -179,14 +167,12 @@ Wire Wire Line
 	4650 2400 4650 2350
 Wire Wire Line
 	4650 2350 4250 2350
-NoConn ~ 1900 4750
 NoConn ~ 1900 4850
 NoConn ~ 1900 4950
 NoConn ~ 1900 5050
 NoConn ~ 1900 5250
 NoConn ~ 1900 5550
 NoConn ~ 1900 5450
-NoConn ~ 1900 5900
 NoConn ~ 1900 6000
 NoConn ~ 1900 6100
 NoConn ~ 1900 6200
@@ -295,14 +281,12 @@ Wire Wire Line
 	8900 2650 8900 2600
 Wire Wire Line
 	8900 2400 8900 2350
-NoConn ~ 10200 4400
 NoConn ~ 10200 4500
 NoConn ~ 10200 4600
 NoConn ~ 10200 4700
 NoConn ~ 10200 4900
 NoConn ~ 10200 5200
 NoConn ~ 10200 5100
-NoConn ~ 10200 5550
 NoConn ~ 10200 5650
 NoConn ~ 10200 5750
 NoConn ~ 10200 5850
@@ -577,152 +561,12 @@ Text Notes 1300 5000 2    157  ~ 31
 R
 Text Notes 1300 6150 2    157  ~ 31
 L
-$Comp
-L Jumper:Jumper_3_Bridged12 JP7
-U 1 1 5E62BB91
-P 4450 4700
-F 0 "JP7" H 4450 4811 50  0000 C CNN
-F 1 "Jumper_3_Bridged12" V 4750 4850 50  0000 C CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x03_P2.00mm_Vertical" H 4450 4700 50  0001 C CNN
-F 3 "~" H 4450 4700 50  0001 C CNN
-F 4 "SPN02SXCN-RC" H 4450 4700 50  0001 C CNN "Part"
-F 5 "M22-2510305" H 4450 4700 50  0001 C CNN "PartB"
-	1    4450 4700
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	4200 4700 4200 4850
-Wire Wire Line
-	4200 4850 4750 4850
-Wire Wire Line
-	5200 4850 5200 4700
-Connection ~ 4750 4850
-Wire Wire Line
-	4750 4850 5200 4850
-$Comp
-L Jumper:Jumper_3_Bridged12 JP9
-U 1 1 5E62BBA0
-P 4950 4700
-F 0 "JP9" H 4950 4811 50  0000 C CNN
-F 1 "Jumper_3_Bridged12" V 4650 4850 50  0000 C CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x03_P2.00mm_Vertical" H 4950 4700 50  0001 C CNN
-F 3 "~" H 4950 4700 50  0001 C CNN
-F 4 "SPN02SXCN-RC" H 4950 4700 50  0001 C CNN "Part"
-F 5 "M22-2510305" H 4950 4700 50  0001 C CNN "PartB"
-	1    4950 4700
-	-1   0    0    1   
-$EndComp
-Connection ~ 4700 4700
-$Comp
-L Jumper:Jumper_3_Bridged12 JP5
-U 1 1 5E635C15
-P 3250 4700
-F 0 "JP5" H 3250 4811 50  0000 C CNN
-F 1 "Jumper_3_Bridged12" V 3550 4850 50  0000 C CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x03_P2.00mm_Vertical" H 3250 4700 50  0001 C CNN
-F 3 "~" H 3250 4700 50  0001 C CNN
-F 4 "SPN02SXCN-RC" H 3250 4700 50  0001 C CNN "Part"
-F 5 "M22-2510305" H 3250 4700 50  0001 C CNN "PartB"
-	1    3250 4700
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	3500 4700 3500 5150
-Wire Wire Line
-	3000 4700 3000 4850
-Wire Wire Line
-	3000 4850 3550 4850
-Wire Wire Line
-	4000 4850 4000 4700
-Connection ~ 3550 4850
-Wire Wire Line
-	3550 4850 4000 4850
-$Comp
-L Jumper:Jumper_3_Bridged12 JP6
-U 1 1 5E635C24
-P 3750 4700
-F 0 "JP6" H 3750 4811 50  0000 C CNN
-F 1 "Jumper_3_Bridged12" V 3450 4850 50  0000 C CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x03_P2.00mm_Vertical" H 3750 4700 50  0001 C CNN
-F 3 "~" H 3750 4700 50  0001 C CNN
-F 4 "SPN02SXCN-RC" H 3750 4700 50  0001 C CNN "Part"
-F 5 "M22-2510305" H 3750 4700 50  0001 C CNN "PartB"
-	1    3750 4700
-	-1   0    0    1   
-$EndComp
-Connection ~ 3500 4700
 Wire Wire Line
 	8500 2850 9150 2850
 Wire Wire Line
 	8500 3250 9150 3250
 Wire Wire Line
 	8500 3450 9150 3450
-$Comp
-L Jumper:Jumper_3_Bridged12 JP15
-U 1 1 5E71CE13
-P 8800 4700
-F 0 "JP15" H 8800 4811 50  0000 C CNN
-F 1 "Jumper_3_Bridged12" V 9100 4850 50  0000 C CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x03_P2.00mm_Vertical" H 8800 4700 50  0001 C CNN
-F 3 "~" H 8800 4700 50  0001 C CNN
-F 4 "SPN02SXCN-RC" H 8800 4700 50  0001 C CNN "Part"
-F 5 "M22-2510305" H 8800 4700 50  0001 C CNN "PartB"
-	1    8800 4700
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	8550 4700 8550 4850
-Wire Wire Line
-	8550 4850 9100 4850
-Wire Wire Line
-	9550 4850 9550 4700
-Connection ~ 9100 4850
-Wire Wire Line
-	9100 4850 9550 4850
-$Comp
-L Jumper:Jumper_3_Bridged12 JP16
-U 1 1 5E71CE22
-P 9300 4700
-F 0 "JP16" H 9300 4811 50  0000 C CNN
-F 1 "Jumper_3_Bridged12" V 9000 4850 50  0000 C CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x03_P2.00mm_Vertical" H 9300 4700 50  0001 C CNN
-F 3 "~" H 9300 4700 50  0001 C CNN
-F 4 "SPN02SXCN-RC" H 9300 4700 50  0001 C CNN "Part"
-F 5 "M22-2510305" H 9300 4700 50  0001 C CNN "PartB"
-	1    9300 4700
-	-1   0    0    1   
-$EndComp
-Connection ~ 9050 4700
-$Comp
-L Jumper:Jumper_3_Bridged12 JP13
-U 1 1 5E71CE2B
-P 7600 4700
-F 0 "JP13" H 7600 4811 50  0000 C CNN
-F 1 "Jumper_3_Bridged12" V 7900 4850 50  0000 C CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x03_P2.00mm_Vertical" H 7600 4700 50  0001 C CNN
-F 3 "~" H 7600 4700 50  0001 C CNN
-F 4 "SPN02SXCN-RC" H 7600 4700 50  0001 C CNN "Part"
-F 5 "M22-2510305" H 7600 4700 50  0001 C CNN "PartB"
-	1    7600 4700
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	7350 4700 7350 4850
-Wire Wire Line
-	8350 4850 8350 4700
-$Comp
-L Jumper:Jumper_3_Bridged12 JP14
-U 1 1 5E71CE3A
-P 8100 4700
-F 0 "JP14" H 8100 4811 50  0000 C CNN
-F 1 "Jumper_3_Bridged12" V 7800 4850 50  0000 C CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x03_P2.00mm_Vertical" H 8100 4700 50  0001 C CNN
-F 3 "~" H 8100 4700 50  0001 C CNN
-F 4 "SPN02SXCN-RC" H 8100 4700 50  0001 C CNN "Part"
-F 5 "M22-2510305" H 8100 4700 50  0001 C CNN "PartB"
-	1    8100 4700
-	-1   0    0    1   
-$EndComp
 $Comp
 L Device:Jumper JP?
 U 1 1 5E736A17
@@ -772,87 +616,39 @@ F 5 "M22-2510305" V 6350 5400 50  0001 C CNN "PartB"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1900 5150 3500 5150
-Wire Wire Line
 	1900 5350 3550 5350
-Wire Wire Line
-	3550 4850 3550 5350
 Wire Wire Line
 	4700 6300 1900 6300
 Wire Wire Line
-	4700 4700 4700 5900
-Wire Wire Line
 	4750 6500 1900 6500
 Wire Wire Line
-	4750 4850 4750 6150
-Wire Wire Line
-	6050 5400 3750 5400
+	6050 5400 4850 5400
 Wire Wire Line
 	3750 5400 3750 5150
 Wire Wire Line
-	3750 5150 3500 5150
-Connection ~ 3500 5150
-Wire Wire Line
-	6050 5600 3550 5600
+	6050 5600 4950 5600
 Wire Wire Line
 	3550 5600 3550 5350
-Connection ~ 3550 5350
 Wire Wire Line
-	6050 5900 4700 5900
-Connection ~ 4700 5900
+	6050 5900 5050 5900
 Wire Wire Line
 	4700 5900 4700 6300
 Wire Wire Line
-	6050 6150 4750 6150
-Connection ~ 4750 6150
+	6050 6150 5150 6150
 Wire Wire Line
 	4750 6150 4750 6500
 Wire Wire Line
-	7350 4850 7900 4850
-Wire Wire Line
-	7850 4700 7850 5400
-Wire Wire Line
-	7850 5400 6650 5400
-Connection ~ 7850 4700
-Wire Wire Line
-	7900 4850 7900 5600
-Wire Wire Line
-	7900 5600 6650 5600
-Connection ~ 7900 4850
-Wire Wire Line
-	7900 4850 8350 4850
-Wire Wire Line
-	6650 5900 9050 5900
-Wire Wire Line
-	9050 4700 9050 5900
-Wire Wire Line
-	9100 6150 6650 6150
-Wire Wire Line
-	9100 4850 9100 6150
-Wire Wire Line
 	10200 5950 9750 5950
-Connection ~ 9050 5900
-Wire Wire Line
-	10200 6150 9100 6150
-Connection ~ 9100 6150
-Connection ~ 7900 5600
 Wire Wire Line
 	10200 4800 9700 4800
 Wire Wire Line
 	9700 4800 9700 5400
 Wire Wire Line
-	9700 5400 7850 5400
-Connection ~ 7850 5400
-Wire Wire Line
 	10200 5000 9750 5000
 Wire Wire Line
 	9750 5000 9750 5600
 Wire Wire Line
-	7900 5600 9750 5600
-Wire Wire Line
 	9750 5950 9750 5900
-Wire Wire Line
-	9050 5900 9750 5900
 Wire Wire Line
 	8500 3050 9150 3050
 Wire Wire Line
@@ -863,21 +659,19 @@ Wire Wire Line
 	4250 3050 4950 3050
 Wire Wire Line
 	4250 3450 4950 3450
-Text Label 3250 4550 0    50   ~ 0
-BBRTX
-Text Label 3750 4550 0    50   ~ 0
+Text Label 4950 4750 1    50   ~ 0
 BBRRX
-Text Label 4450 4550 0    50   ~ 0
+Text Label 5050 4750 1    50   ~ 0
 BBLTX
-Text Label 4950 4550 0    50   ~ 0
+Text Label 5150 4750 1    50   ~ 0
 BBLRX
-Text Label 8800 4550 0    50   ~ 0
+Text Label 7600 4750 1    50   ~ 0
 VLTX
-Text Label 9300 4550 0    50   ~ 0
+Text Label 7700 4750 1    50   ~ 0
 VLRX
-Text Label 7600 4550 0    50   ~ 0
+Text Label 7400 4750 1    50   ~ 0
 VRTX
-Text Label 8100 4550 0    50   ~ 0
+Text Label 7500 4750 1    50   ~ 0
 VRRX
 $Comp
 L power:+3.3VA #PWR?
@@ -893,4 +687,156 @@ F 3 "" H 7700 850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 7700 850 
+$Comp
+L Connector:DB9_Male J8
+U 1 1 5EAE4A4F
+P 1600 5150
+F 0 "J8" H 1780 5196 50  0000 L CNN
+F 1 "DB9_Male" H 1780 5105 50  0000 L CNN
+F 2 "Connector_Dsub:DSUB-9_Male_Vertical_P2.77x2.84mm_MountingHoles" H 1600 5150 50  0001 C CNN
+F 3 " ~" H 1600 5150 50  0001 C CNN
+F 4 "5747840-3" H 1600 5150 50  0001 C CNN "Part"
+	1    1600 5150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR0126
+U 1 1 5E8EF4BA
+P 10200 5550
+F 0 "#PWR0126" H 10200 5300 50  0001 C CNN
+F 1 "GNDD" V 10204 5440 50  0000 R CNN
+F 2 "" H 10200 5550 50  0001 C CNN
+F 3 "" H 10200 5550 50  0001 C CNN
+	1    10200 5550
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GNDD #PWR0138
+U 1 1 5E8EF6B3
+P 10200 4400
+F 0 "#PWR0138" H 10200 4150 50  0001 C CNN
+F 1 "GNDD" V 10204 4290 50  0000 R CNN
+F 2 "" H 10200 4400 50  0001 C CNN
+F 3 "" H 10200 4400 50  0001 C CNN
+	1    10200 4400
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GNDD #PWR0139
+U 1 1 5E8EFF2A
+P 1900 4750
+F 0 "#PWR0139" H 1900 4500 50  0001 C CNN
+F 1 "GNDD" V 1904 4640 50  0000 R CNN
+F 2 "" H 1900 4750 50  0001 C CNN
+F 3 "" H 1900 4750 50  0001 C CNN
+	1    1900 4750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GNDD #PWR0140
+U 1 1 5E8F6906
+P 1900 5900
+F 0 "#PWR0140" H 1900 5650 50  0001 C CNN
+F 1 "GNDD" V 1904 5790 50  0000 R CNN
+F 2 "" H 1900 5900 50  0001 C CNN
+F 3 "" H 1900 5900 50  0001 C CNN
+	1    1900 5900
+	0    -1   -1   0   
+$EndComp
+Text Label 4850 4750 1    50   ~ 0
+BBRTX
+Wire Wire Line
+	1900 5150 3750 5150
+$Comp
+L Connector:Conn_01x04_Male J?
+U 1 1 5E9303CB
+P 4950 4950
+F 0 "J?" V 5104 4662 50  0000 R CNN
+F 1 "Conn_01x04_Male" V 5013 4662 50  0000 R CNN
+F 2 "" H 4950 4950 50  0001 C CNN
+F 3 "~" H 4950 4950 50  0001 C CNN
+	1    4950 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J?
+U 1 1 5E93185B
+P 4950 5000
+F 0 "J?" V 5012 4712 50  0000 R CNN
+F 1 "Conn_01x04_Male" V 5103 4712 50  0000 R CNN
+F 2 "" H 4950 5000 50  0001 C CNN
+F 3 "~" H 4950 5000 50  0001 C CNN
+	1    4950 5000
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	4850 5200 4850 5400
+Connection ~ 4850 5400
+Wire Wire Line
+	4850 5400 3750 5400
+Wire Wire Line
+	4950 5200 4950 5600
+Connection ~ 4950 5600
+Wire Wire Line
+	4950 5600 3550 5600
+Wire Wire Line
+	5050 5200 5050 5900
+Connection ~ 5050 5900
+Wire Wire Line
+	5050 5900 4700 5900
+Wire Wire Line
+	5150 5200 5150 6150
+Connection ~ 5150 6150
+Wire Wire Line
+	5150 6150 4750 6150
+$Comp
+L Connector:Conn_01x04_Male J?
+U 1 1 5E9686A8
+P 7500 4950
+F 0 "J?" V 7654 4662 50  0000 R CNN
+F 1 "Conn_01x04_Male" V 7563 4662 50  0000 R CNN
+F 2 "" H 7500 4950 50  0001 C CNN
+F 3 "~" H 7500 4950 50  0001 C CNN
+	1    7500 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J?
+U 1 1 5E9686AE
+P 7500 5000
+F 0 "J?" V 7562 4712 50  0000 R CNN
+F 1 "Conn_01x04_Male" V 7653 4712 50  0000 R CNN
+F 2 "" H 7500 5000 50  0001 C CNN
+F 3 "~" H 7500 5000 50  0001 C CNN
+	1    7500 5000
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	7400 5200 7400 5400
+Wire Wire Line
+	7500 5200 7500 5600
+Wire Wire Line
+	7600 5200 7600 5900
+Wire Wire Line
+	7700 5200 7700 6150
+Wire Wire Line
+	6650 5400 7400 5400
+Wire Wire Line
+	6650 5600 7500 5600
+Wire Wire Line
+	6650 5900 7600 5900
+Wire Wire Line
+	6650 6150 7700 6150
+Connection ~ 7400 5400
+Wire Wire Line
+	7400 5400 9700 5400
+Connection ~ 7500 5600
+Wire Wire Line
+	7500 5600 9750 5600
+Connection ~ 7600 5900
+Wire Wire Line
+	7600 5900 9750 5900
+Connection ~ 7700 6150
+Wire Wire Line
+	7700 6150 10200 6150
 $EndSCHEMATC
