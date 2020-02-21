@@ -638,10 +638,6 @@ Text Notes 12800 3500 0    50   ~ 0
 CHECK UARTS. Documentation confusing. CHECK VCU PINS.\nPins do NOT match up with X70 documentation for UARTS
 Text Notes 1700 6100 0    50   ~ 0
 CurrSense (!!!!)\nDO WE HAVE THIS CONN?
-Text Notes 2850 6200 0    50   ~ 0
-J506:\nNOT IN PINOUT UART0\nPINS 3/4\nCHECK CHECK CHECK
-Text Notes 3900 6200 0    50   ~ 0
-J501, J505:\nNOT IN PINOUT UART2\nPIN3 J505, PIN1 J501\nCHECK CHECK CHECK
 Wire Wire Line
 	8600 1500 8600 1700
 Wire Wire Line
