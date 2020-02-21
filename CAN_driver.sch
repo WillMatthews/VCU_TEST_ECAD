@@ -27,13 +27,13 @@ Wire Wire Line
 	7050 5450 7200 5450
 Wire Wire Line
 	7650 4300 7050 4300
-Text GLabel 7650 5650 0    50   Input ~ 0
-BBCAN+
-Text GLabel 7650 4500 0    50   Input ~ 0
-BBCAN+
 Text GLabel 7650 5550 0    50   Input ~ 0
-BBCAN-
+BBCAN+
 Text GLabel 7650 4400 0    50   Input ~ 0
+BBCAN+
+Text GLabel 7650 5650 0    50   Input ~ 0
+BBCAN-
+Text GLabel 7650 4500 0    50   Input ~ 0
 BBCAN-
 $Comp
 L Connector:DB9_Male J?
@@ -146,13 +146,13 @@ F 4 "5747840-3" H 7950 1300 50  0001 C CNN "Part"
 	1    7950 1300
 	1    0    0    -1  
 $EndComp
-Text GLabel 7650 1400 0    50   Input ~ 0
-VCUCAN-
-Text GLabel 7650 2550 0    50   Input ~ 0
-VCUCAN-
 Text GLabel 7650 1500 0    50   Input ~ 0
-VCUCAN+
+VCUCAN-
 Text GLabel 7650 2650 0    50   Input ~ 0
+VCUCAN-
+Text GLabel 7650 1400 0    50   Input ~ 0
+VCUCAN+
+Text GLabel 7650 2550 0    50   Input ~ 0
 VCUCAN+
 Wire Wire Line
 	7650 1300 7050 1300
