@@ -691,7 +691,7 @@ Wire Wire Line
 Wire Wire Line
 	14200 6100 13700 6100
 Text Label 15500 5600 2    50   ~ 0
-GPIO_28
+GPIO_26
 Text Label 15500 5500 2    50   ~ 0
 GPIO_27
 Text Label 15500 5400 2    50   ~ 0
@@ -736,7 +736,6 @@ Wire Wire Line
 	14200 6700 13700 6700
 Wire Wire Line
 	13700 6600 14200 6600
-NoConn ~ 5400 1650
 NoConn ~ 3100 2650
 NoConn ~ 1800 2850
 NoConn ~ 1800 2750
@@ -1596,8 +1595,6 @@ Text Label 1500 8050 2    50   ~ 0
 PressRin
 Text Label 2800 7850 2    50   ~ 0
 GPIO_27
-Text Label 2800 7750 2    50   ~ 0
-GPIO_28
 Text Label 2800 7450 2    50   ~ 0
 GPIO_23
 Text Notes 3900 7850 0    50   ~ 0
@@ -1797,8 +1794,6 @@ NoConn ~ 3700 9050
 NoConn ~ 3700 9150
 Wire Wire Line
 	2800 7450 3700 7450
-Text Notes -2600 -600 0    100  ~ 0
-Removed (TO REASSIGN):\n  J507-4 (adc) to GPIO_45\n  J507-5 (adc) to GPIO_46\n  J507-9 (uart) to GPIO_50\n  J507-10 (nc) to GPIO_51
 NoConn ~ 5300 7450
 NoConn ~ 5300 7650
 NoConn ~ 5800 7450
@@ -2109,30 +2104,6 @@ F 3 "" H 4850 9100 60  0000 C CNN
 	1    4850 9100
 	1    0    0    -1  
 $EndComp
-Text Notes -2600 -1750 0    79   ~ 16
-TODO:\n0) Assign new GPIOs on VCU\n1) ADD SILKSCREEN FOR WHAT TESTPOINTS ARE!!! (GPIO out of VCU??)
-$Comp
-L Device:C C10
-U 1 1 5F03FB02
-P 9000 5000
-F 0 "C10" H 9115 5046 50  0000 L CNN
-F 1 "100n" H 9115 4955 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9038 4850 50  0001 C CNN
-F 3 "~" H 9000 5000 50  0001 C CNN
-	1    9000 5000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C12
-U 1 1 5F0588C3
-P 9400 5000
-F 0 "C12" H 9515 5046 50  0000 L CNN
-F 1 "1u" H 9515 4955 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9438 4850 50  0001 C CNN
-F 3 "~" H 9400 5000 50  0001 C CNN
-	1    9400 5000
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8800 4950 8800 4850
 Wire Wire Line
@@ -2151,28 +2122,6 @@ Wire Wire Line
 	8800 6100 8800 6150
 Connection ~ 9400 5150
 Connection ~ 8800 6150
-$Comp
-L Device:C C9
-U 1 1 5F0BE09F
-P 9000 3350
-F 0 "C9" H 9115 3396 50  0000 L CNN
-F 1 "100n" H 9115 3305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9038 3200 50  0001 C CNN
-F 3 "~" H 9000 3350 50  0001 C CNN
-	1    9000 3350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C11
-U 1 1 5F0BE0A5
-P 9400 3350
-F 0 "C11" H 9515 3396 50  0000 L CNN
-F 1 "1u" H 9515 3305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9438 3200 50  0001 C CNN
-F 3 "~" H 9400 3350 50  0001 C CNN
-	1    9400 3350
-	1    0    0    -1  
-$EndComp
 Connection ~ 9000 3200
 Wire Wire Line
 	9000 3200 9400 3200
@@ -2297,8 +2246,6 @@ F 3 "~" H 3800 5150 50  0001 C CNN
 	1    3800 5150
 	1    0    0    -1  
 $EndComp
-Text Notes -2700 -150 0    50   ~ 0
-changed:\ngpio 23, 26, 27 routed to brake, ass and audio
 Wire Wire Line
 	1400 7050 1900 7050
 Text Label 15500 5700 2    50   ~ 0
@@ -2347,4 +2294,55 @@ Text Label 4900 7350 2    50   ~ 0
 GPIO_45
 Text Label 4900 7550 2    50   ~ 0
 GPIO_46
+$Comp
+L Device:C C10
+U 1 1 5F03FB02
+P 9000 5000
+F 0 "C10" H 9115 5046 50  0000 L CNN
+F 1 "100n" H 9115 4955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9038 4850 50  0001 C CNN
+F 3 "~" H 9000 5000 50  0001 C CNN
+	1    9000 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C12
+U 1 1 5F0588C3
+P 9400 5000
+F 0 "C12" H 9515 5046 50  0000 L CNN
+F 1 "1u" H 9515 4955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9438 4850 50  0001 C CNN
+F 3 "~" H 9400 5000 50  0001 C CNN
+	1    9400 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C9
+U 1 1 5F0BE09F
+P 9000 3350
+F 0 "C9" H 9115 3396 50  0000 L CNN
+F 1 "100n" H 9115 3305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9038 3200 50  0001 C CNN
+F 3 "~" H 9000 3350 50  0001 C CNN
+	1    9000 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C11
+U 1 1 5F0BE0A5
+P 9400 3350
+F 0 "C11" H 9515 3396 50  0000 L CNN
+F 1 "1u" H 9515 3305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9438 3200 50  0001 C CNN
+F 3 "~" H 9400 3350 50  0001 C CNN
+	1    9400 3350
+	1    0    0    -1  
+$EndComp
+Text Notes -2600 -1750 0    79   ~ 16
+TODO:\nCHECK CAN PINS!!
+Text Label 2800 7750 2    50   ~ 0
+GPIO_26
+Text Notes -2700 -150 0    50   ~ 0
+changed:\ngpio 23, 26, 27 routed to brake, ass and audio
+NoConn ~ 5400 1650
 $EndSCHEMATC
