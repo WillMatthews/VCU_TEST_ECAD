@@ -1975,8 +1975,6 @@ F 3 "~" H 2850 1200 50  0001 C CNN
 	1    2850 1200
 	0    -1   -1   0   
 $EndComp
-Text Notes -4950 -2450 0    197  Italic 39
-wtf is up with VCU{TX,RX}D2 and VCU{TX,RX}D2A ???
 $Comp
 L Connector:TestPoint TP?
 U 1 1 5EA210F0
@@ -2338,11 +2336,7 @@ F 3 "~" H 9400 3350 50  0001 C CNN
 	1    9400 3350
 	1    0    0    -1  
 $EndComp
-Text Notes -2600 -1750 0    79   ~ 16
-TODO:\nCHECK CAN PINS!!
 Text Label 2800 7750 2    50   ~ 0
 GPIO_26
-Text Notes -2700 -150 0    50   ~ 0
-changed:\ngpio 23, 26, 27 routed to brake, ass and audio
 NoConn ~ 5400 1650
 $EndSCHEMATC
