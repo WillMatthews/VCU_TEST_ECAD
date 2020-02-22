@@ -7,6 +7,7 @@ VCU to Beaglebone breakout hardware for testing the VCU, and future continuous i
 ## Schematic and PCB
 
 The project is made in KiCad. Which can be obtained for free! [KiCad 5.0](http://kicad-pcb.org/download/)
+All project files are in the `Kicad/` subdirectory.
 
 ## Components
 
